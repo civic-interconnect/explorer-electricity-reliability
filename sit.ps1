@@ -37,6 +37,10 @@ uvx prek run --all-files
 # repeat if changes were made
 uvx prek run --all-files
 
+# run Python tests for version checker
+uv run python -m pytest
+
+# build the docs
 uv run python -m zensical build
 
 Write-Host "All commands executed successfully."

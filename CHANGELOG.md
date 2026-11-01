@@ -71,6 +71,7 @@ uvx zizmor@latest .github/
 # suppressed and informational are okay
 
 uvx cffconvert --validate
+uvx "validate-pyproject[all]" pyproject.toml
 
 uv run --no-project python scripts/build_utilities.py
 uv run --no-project python scripts/build_reliability.py

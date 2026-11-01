@@ -1,5 +1,6 @@
 // @ts-check
 import { parseHash } from "./state.js";
+import { recalledUtilityHash } from "./last-utility.js";
 import { loadLocale, t } from "./i18n.js";
 import * as search from "./views/search.js";
 import * as utility from "./views/utility.js";
@@ -98,6 +99,8 @@ async function start() {
   requireElement("app-title").textContent = t("app.title");
   renderNav();
   renderFooter();
+  const recalled = recalledUtilityHash(window.location.hash);
+  if (recalled) window.history.replaceState(null, "", recalled);
   renderRoute();
   window.addEventListener("hashchange", renderRoute);
 }

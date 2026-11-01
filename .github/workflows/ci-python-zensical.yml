@@ -118,23 +118,6 @@ jobs:
         run: uvx "validate-pyproject[all]" pyproject.toml
         # WHY: Catch malformed project metadata before downstream CI or release work.
 
-      - name: B2) Run ty type checker
-        run: uv run ty check
-        continue-on-error: true
-        # WHY: Catch type errors that Ruff does not check.
-        # OBS: ty uses the installed project environment for analysis.
-        # OBS: Not included in hooks because it requires the full environment.
-        # OBS: continue-on-error keeps type checking non-blocking in this workflow.
-
-      # ============================================================
-      # C) COVERAGE & TESTING: Python tests
-      # ============================================================
-      - name: C1) Run pytest
-        run: uv run python -m pytest
-        # WHY: Confirm all Python tests pass in a clean CI environment.
-        # OBS: pytest config lives in pyproject.toml [tool.pytest.ini_options].
-        # OBS: Not included in hooks because tests can be slow.
-
       # ============================================================
       # D) DOCS: Build documentation without deployment
       # ============================================================

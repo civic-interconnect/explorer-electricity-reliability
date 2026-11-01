@@ -1,6 +1,6 @@
 # explorer-electricity-reliability
 
-[![Open Explorer](https://img.shields.io/badge/explorer-green?logo=github)](https://civic-interconnect.github.io/explorer-electricity-reliability/docs/)
+[![Open Explorer](https://img.shields.io/badge/explorer-green?logo=github)](https://civic-interconnect.github.io/explorer-electricity-reliability/app/)
 [![Docs Site](https://img.shields.io/badge/docs-site-blue?logo=github)](https://civic-interconnect.github.io/explorer-electricity-reliability/en/)
 
 [![CI-Node](https://github.com/civic-interconnect/explorer-electricity-reliability/actions/workflows/ci-node.yml/badge.svg?branch=main)](https://github.com/civic-interconnect/explorer-electricity-reliability/actions/workflows/ci-node.yml)
@@ -86,6 +86,21 @@ The generated JSON files preserve reported measurements.
 Missing values are **not replaced with zero**.
 
 See the [Data Card](data/DATA_CARD.md) for more.
+
+## Related Explorers
+
+Catalyst Cooperative provides additional tools for exploring
+public U.S. energy data through the
+[Public Utility Data Liberation (PUDL) project](https://data.catalyst.coop/).
+
+- [Plant Explorer](https://data.catalyst.coop/dashboards/plant-explorer/) -
+  Explore generating plants, fuel sources, and equipment.
+- [Utility Explorer](https://data.catalyst.coop/dashboards/utility-explorer/) -
+  Explore utility operations, customers, revenue, and reliability.
+- [Rate Base & Sales Explorer](https://data.catalyst.coop/dashboards/rate-base-sales-explorer/) -
+  Explore utility rate bases, sales, and financial relationships.
+- [All PUDL Dashboards](https://data.catalyst.coop/dashboards/) -
+  Discover additional public energy data visualizations.
 
 ## Note
 
@@ -193,11 +208,16 @@ git push -u origin main
 
 ## Acknowledgements
 
-- [Favicon.io](https://favicon.io/favicon-generator/)
+- [Favicon.io](https://favicon.io/favicon-generator/) - free
+  Favicon generation.
 
 ## Application
 
-[App](https://civic-interconnect.github.io/explorer-electricity-reliability/docs/)
+[App](https://civic-interconnect.github.io/explorer-electricity-reliability/app/)
+
+## Changelog
+
+[Changelog](https://github.com/civic-interconnect/explorer-electricity-reliability/blob/main/CHANGELOG.md)
 
 ## Citation
 
@@ -220,7 +240,7 @@ git push -u origin main
 
 ## License
 
-[MIT](https://github.com/civic-interconnect/explorer-electricity-reliability/blob/main/LICENSE)
+[Apache 2.0](https://github.com/civic-interconnect/explorer-electricity-reliability/blob/main/LICENSE)
 
 ## Repository
 

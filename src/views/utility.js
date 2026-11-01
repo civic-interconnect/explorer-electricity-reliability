@@ -1,5 +1,6 @@
 // @ts-check
 import { t } from "../i18n.js";
+import { rememberUtility } from "../last-utility.js";
 import { formatNumber, formatYear } from "../format.js";
 import { loadUtilityReliability, VARIANTS } from "../reliability.js";
 import { isVisibleRecord, selectMetricSeries } from "../metric-series.js";
@@ -68,6 +69,7 @@ async function showUtility(container, route, request) {
     return;
   }
   drawUtility(container, utility);
+  rememberUtility(route);
 }
 
 /**
