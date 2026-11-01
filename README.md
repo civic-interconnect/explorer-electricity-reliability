@@ -87,6 +87,94 @@ Missing values are **not replaced with zero**.
 
 See the [Data Card](data/DATA_CARD.md) for more.
 
+## Model References
+
+### Estimate Solar Electricity Production
+
+The [PVWatts Calculator](https://pvwatts.nlr.gov/),
+provided by the National Laboratory of the Rockies (NLR),
+estimates electricity generation from photovoltaic solar systems.
+
+PVWatts helps homeowners explore how annual and monthly solar
+production depends on:
+
+- Geographic location and local solar resources.
+- Solar array capacity (kW).
+- Panel orientation and tilt.
+- Shading, snow, and other system losses.
+- Equipment and installation characteristics.
+
+Results include estimated monthly and annual electricity
+generation (kWh).
+
+Location alone does not determine solar production.
+Sites at different latitudes may produce similar annual
+energy under comparable system assumptions.
+
+### Using Solar Estimates with the Outage Planner
+
+The Electricity Reliability Explorer includes an interactive
+Outage Planner for exploring household electricity needs,
+generator fuel consumption, and propane storage.
+
+PVWatts provides complementary solar-production estimates
+that can inform future solar and battery scenarios.
+
+These calculations answer different questions:
+
+- **Solar production:** How much electricity might an array generate?
+- **Electricity consumption:** How much energy does a household use?
+- **Battery storage:** How much energy could be available during an outage?
+- **Financial payback:** How do installation costs compare with
+  estimated electricity savings?
+
+PVWatts does not establish the payback period or outage
+backup capability of a solar or battery installation.
+
+Actual performance and financial outcomes depend on
+equipment, installation, electricity tariffs, energy
+consumption, operating conditions, and applicable incentives.
+
+### PVWatts API
+
+The [PVWatts V8 API documentation](https://developer.nlr.gov/docs/solar/pvwatts/v8/)
+describes the inputs, calculations, and outputs used to
+estimate photovoltaic electricity production.
+
+The API supports monthly and hourly generation estimates,
+making it useful for examining seasonal production,
+comparing solar system configurations, and developing
+more detailed solar and battery scenarios.
+
+It also documents the underlying weather data,
+model assumptions, and available system parameters.
+
+### Solar and Outage Resilience
+
+The U.S. Department of Energy's
+[The Road to Resilience with Rooftop Solar](https://www.energy.gov/cmei/systems/articles/road-resilience-rooftop-solar)
+explains why installing solar panels does not necessarily
+provide electricity during a grid outage.
+
+The article introduces the roles of battery storage,
+backup generators, inverters, and systems capable of
+operating independently of the electric grid.
+
+This distinction matters when evaluating solar
+generation separately from emergency backup capability.
+
+### Financial Interpretation
+
+Financial results in the Outage Planner use simplified
+calculations based on user-entered assumptions.
+
+They are not installation quotes, verified utility tariffs,
+or financial forecasts.
+
+Actual savings and payback depend on installation costs,
+electricity rates, solar production, export compensation,
+equipment performance, maintenance, and applicable incentives.
+
 ## Related Explorers
 
 Catalyst Cooperative provides additional tools for exploring

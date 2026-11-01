@@ -1,0 +1,31 @@
+.outage-planner { --plan-accent: light-dark(#146484, #72caed); }
+.outage-planner .plan-eyebrow { color: var(--plan-accent); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: .8rem; }
+.outage-planner h2 { font-size: clamp(1.8rem, 5vw, 2.6rem); margin-block: .3rem .8rem; }
+.outage-planner .plan-intro { max-inline-size: 48rem; font-size: 1.1rem; }
+.outage-planner .plan-note { border-inline-start: 4px solid var(--plan-accent); padding: .75rem 1rem; background: light-dark(#f0f7fa, #162c37); }
+.outage-planner .plan-inputs { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: 1.5rem; margin-block: 1.5rem; }
+.outage-planner label { display: block; font-weight: 600; margin-block-end: .5rem; }
+.outage-planner input, .outage-planner select, .outage-planner button { font: inherit; box-sizing: border-box; min-block-size: 44px; }
+.outage-planner input, .outage-planner select { width: 100%; min-inline-size: 0; padding: .5rem; }
+.outage-planner input[type=range] { padding: 0; accent-color: var(--plan-accent); }
+.outage-planner .plan-slider { display: flex; gap: .75rem; align-items: center; }
+.outage-planner output { min-inline-size: 3.5rem; font-weight: 700; }
+.outage-planner .plan-hint { font-size: .9rem; margin-block: .5rem 1rem; }
+.outage-planner .plan-presets { display: flex; flex-wrap: wrap; gap: .5rem; margin-block-start: .6rem; }
+.outage-planner button { padding: .45rem .8rem; border: 1px solid var(--plan-accent); border-radius: .4rem; background: transparent; color: inherit; cursor: pointer; }
+.outage-planner button[aria-pressed=true] { background: var(--plan-accent); color: light-dark(white, #10212b); }
+.outage-planner .plan-results { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-block: 1.5rem; }
+.outage-planner .plan-result { border: 1px solid #8293a0; border-radius: .6rem; padding: 1rem; overflow-wrap: anywhere; }
+.outage-planner .plan-result-primary { background: light-dark(#f0f7fa, #162c37); border-color: var(--plan-accent); }
+.outage-planner .plan-result h4, .outage-planner .plan-result p { margin-block: 0 .5rem; }
+.outage-planner .plan-number { font-size: clamp(1.4rem, 3vw, 2rem); font-weight: 700; font-variant-numeric: tabular-nums; }
+.outage-planner .plan-energy-bar, .outage-planner .plan-tank-bar { display: flex; height: 1rem; overflow: hidden; border: 1px solid #8293a0; border-radius: .25rem; background: light-dark(#e6ebee, #3b4950); }
+.outage-planner .plan-energy-bar span { background: var(--plan-accent); }
+.outage-planner .plan-tank-bar span:nth-child(1) { width: 60%; background: var(--plan-accent); }
+.outage-planner .plan-tank-bar span:nth-child(2) { width: 20%; background: repeating-linear-gradient(45deg, transparent, transparent 3px, #8293a0 3px, #8293a0 5px); }
+.outage-planner .plan-tank-bar span:nth-child(3) { width: 20%; }
+.outage-planner details { padding-block: 1rem; margin-block: 1rem; border-block-start: 1px solid #8293a0; }
+.outage-planner summary { font-weight: 700; cursor: pointer; padding-block: .4rem; }
+.outage-planner .plan-error { color: light-dark(#9b2020, #ffb0b0); }
+.outage-planner [aria-invalid=true] { outline: 2px solid light-dark(#9b2020, #ffb0b0); }
+@media (max-width: 640px) { .outage-planner .plan-results { grid-template-columns: minmax(0, 1fr); } }

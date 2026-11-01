@@ -3,13 +3,14 @@ import { parseHash } from "./state.js";
 import { recalledUtilityHash } from "./last-utility.js";
 import { loadLocale, t } from "./i18n.js";
 import * as search from "./views/search.js";
+import * as planning from "./views/planning.js";
 import * as utility from "./views/utility.js";
 import * as compare from "./views/compare.js";
 import * as method from "./views/method.js";
 import * as glossary from "./views/glossary.js";
 
 /** @type {Record<string, { render: (container: HTMLElement, route: import("./state.js").Route) => void }>} */
-const views = { search, utility, compare, method, glossary };
+const views = { search, utility, compare, method, glossary, planning };
 
 /**
  * @param {string} id
@@ -36,6 +37,7 @@ function renderNav() {
       labelKey: "nav.search",
       external: false,
     },
+    { href: "#/planning", labelKey: "nav.planning", external: false },
     {
       href: new URL("en/methods/", docsBase).href,
       labelKey: "nav.method",

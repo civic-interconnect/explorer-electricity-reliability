@@ -14,7 +14,7 @@
 
 /**
  * @typedef {object} Route
- * @property {"search" | "utility" | "compare" | "method" | "glossary"} view
+ * @property {"search" | "utility" | "compare" | "method" | "glossary" | "planning"} view
  * @property {string} [jurisdiction]
  * @property {string} [scheme]
  * @property {string} [value]
@@ -47,6 +47,8 @@ export function parseHash(hash) {
     return { view: "search" };
   }
 
+  if (parts.length === 1 && parts[0] === "planning") return { view: "planning" };
+
   if (parts.length === 1 && parts[0] === "method") {
     return { view: "method" };
   }
@@ -67,6 +69,7 @@ export function parseHash(hash) {
  * @returns {string} A hash such as "#/us/eia-utility-id/12345".
  */
 export function buildHash(route) {
+  if (route.view === "planning") return "#/planning";
   if (route.view === "method") {
     return "#/method";
   }

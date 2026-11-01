@@ -2,7 +2,7 @@
 import { formatNumber, formatYear } from "../format.js";
 import { t } from "../i18n.js";
 
-/** A zero-based scale with four intervals; an all-zero or empty series uses 0–1.
+/** A zero-based scale with four intervals; an all-zero or empty series uses 0-1.
  * @param {import("../metric-series.js").Observation[]} series
  */
 export function chartScale(series) {
