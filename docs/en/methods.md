@@ -1,5 +1,13 @@
 # Methods
 
+> How metrics are calculated.
+
+---
+
+[**⚡️Go to Explorer**](https://civic-interconnect.github.io/explorer-electricity-reliability/app/)
+
+---
+
 ## About the Data
 
 The Electricity Reliability Explorer presents annual electricity
@@ -16,7 +24,7 @@ They are not live outage data.
 
 Three standard indices describe different aspects of reliability.
 
-### SAIDI — Interruption Duration
+### SAIDI - Interruption Duration
 
 System Average Interruption Duration Index.
 
@@ -25,7 +33,7 @@ per customer during a reporting year.
 
 Displayed in minutes per customer.
 
-### SAIFI — Interruption Frequency
+### SAIFI - Interruption Frequency
 
 System Average Interruption Frequency Index.
 
@@ -34,7 +42,7 @@ customer during a reporting year.
 
 Displayed in interruptions per customer.
 
-### CAIDI — Interruption Duration per Interruption
+### CAIDI - Interruption Duration per Interruption
 
 Customer Average Interruption Duration Index.
 
@@ -102,6 +110,4 @@ weather exposure, and reporting practices.
 
 ---
 
-## Return to Explorer
-
-[Explorer](https://civic-interconnect.github.io/explorer-electricity-reliability/app/)
+[**⚡️Go to Explorer**](https://civic-interconnect.github.io/explorer-electricity-reliability/app/)

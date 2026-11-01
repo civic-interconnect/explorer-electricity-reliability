@@ -46,8 +46,8 @@ uv run --no-project python scripts/build_reliability.py
 
 The generated files are:
 
-- `data/utilities.json` — utility dimension for searching and selection.
-- `data/reliability/<utility_id>.json` — annual reliability records by utility.
+- `data/utilities.json` - utility dimension for searching and selection.
+- `data/reliability/<utility_id>.json` - annual reliability records by utility.
 
 Both scripts use only the Python standard library.
 

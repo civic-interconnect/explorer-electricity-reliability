@@ -1,6 +1,6 @@
 # explorer-electricity-reliability
 
-[![Open Explorer](https://img.shields.io/badge/explorer-green?logo=github)](https://civic-interconnect.github.io/explorer-electricity-reliability/app/)
+[![Open Explorer](https://img.shields.io/badge/⚡️-explorer-green?logo=github)](https://civic-interconnect.github.io/explorer-electricity-reliability/app/)
 [![Docs Site](https://img.shields.io/badge/docs-site-blue?logo=github)](https://civic-interconnect.github.io/explorer-electricity-reliability/en/)
 
 [![CI-Node](https://github.com/civic-interconnect/explorer-electricity-reliability/actions/workflows/ci-node.yml/badge.svg?branch=main)](https://github.com/civic-interconnect/explorer-electricity-reliability/actions/workflows/ci-node.yml)
@@ -236,7 +236,7 @@ git push -u origin main
 
 ## Explorer
 
-[Explorer](https://civic-interconnect.github.io/explorer-electricity-reliability/app/)
+[**⚡️Go to Explorer**](https://civic-interconnect.github.io/explorer-electricity-reliability/app/)
 
 ## License
 

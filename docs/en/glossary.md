@@ -1,6 +1,12 @@
 # Glossary
 
-Definitions of terms used in the Electricity Reliability Explorer.
+> Definitions of terms used in the Electricity Reliability Explorer.
+
+---
+
+[**⚡️Go to Explorer**](https://civic-interconnect.github.io/explorer-electricity-reliability/app/)
+
+---
 
 ## CAIDI
 
@@ -94,6 +100,4 @@ A missing value must not be interpreted as zero.
 
 ---
 
-## Return to Explorer
-
-[Explorer](https://civic-interconnect.github.io/explorer-electricity-reliability/app/)
+[**⚡️Go to Explorer**](https://civic-interconnect.github.io/explorer-electricity-reliability/app/)

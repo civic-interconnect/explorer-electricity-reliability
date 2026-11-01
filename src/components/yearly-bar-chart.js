@@ -57,7 +57,7 @@ export function yearlyBarChart({ series, label, unit, context, locale }) {
       const group = svgElement("g", {});
       group.append(svgElement("title", {}, description));
       if (point.value === null) {
-        group.append(svgElement("text", { x, y: baseline - 8, "text-anchor": "middle", class: "chart-gap" }, point.status === "missing" ? "—" : "!"));
+        group.append(svgElement("text", { x, y: baseline - 8, "text-anchor": "middle", class: "chart-gap" }, point.status === "missing" ? "-" : "!"));
       } else if (point.value === 0) {
         group.append(svgElement("circle", { cx: x, cy: baseline, r: 3, class: "chart-zero" }));
       } else {

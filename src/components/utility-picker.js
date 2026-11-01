@@ -30,7 +30,7 @@ export function buildUtilityChoices(records) {
   const utilities = [...lookup.values()];
   const options = buildList(utilities, {
     valueOf: (u) => JSON.stringify([u.state, u.id]),
-    labelOf: (u) => `${u.name}${u.state ? ` (${u.state})` : ""} — ID ${u.id}`,
+    labelOf: (u) => `${u.name}${u.state ? ` (${u.state})` : ""} - ID ${u.id}`,
     searchOf: (u) => `${u.name} ${u.id} ${u.state}`,
   });
   return { utilities, options, lookup };

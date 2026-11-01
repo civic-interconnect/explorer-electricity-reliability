@@ -53,7 +53,7 @@
   "metric.coverage": "Reporting years",
   "metric.table": "Yearly reported reliability",
   "metric.tableNote": "Not reported means missing, never zero. Entirely empty other-standard rows are hidden; customer-count-only rows remain visible. Source records are unchanged.",
-  "chart.legend": "Bars show reported values. A dot on the baseline means a reported zero. A dash (—) marks a missing observation; no bar is drawn. An exclamation mark (!) indicates a reporting discrepancy. Exact values are in the yearly table below.",
+  "chart.legend": "Bars show reported values. A dot on the baseline means a reported zero. A dash (-) marks a missing observation; no bar is drawn. An exclamation mark (!) indicates a reporting discrepancy. Exact values are in the yearly table below.",
   "metric.saifi": "SAIFI · Interruption frequency",
   "metric.caidi": "CAIDI · Duration per interruption",
   "metric.saifiUnit": "Interruptions per customer",

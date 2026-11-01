@@ -1,5 +1,13 @@
 # Electricity Reliability Explorer
 
+> About the application.
+
+---
+
+[**⚡️Go to Explorer**](https://civic-interconnect.github.io/explorer-electricity-reliability/app/)
+
+---
+
 ## Understanding Reliability
 
 - How often does your electricity service experience interruptions?
@@ -8,7 +16,7 @@
 
 This Explorer makes annual utility-reported reliability information easier to understand.
 
-[**Open the Electricity Reliability Explorer**](https://civic-interconnect.github.io/explorer-electricity-reliability/app/)
+[**⚡️Open the Electricity Reliability Explorer**](https://civic-interconnect.github.io/explorer-electricity-reliability/app/)
 
 ## Indicators
 
@@ -61,6 +69,4 @@ EIA, Catalyst Cooperative, or any utility.
 
 ---
 
-## View the Explorer
-
-[Explorer](https://civic-interconnect.github.io/explorer-electricity-reliability/app/)
+[**⚡️Go to Explorer**](https://civic-interconnect.github.io/explorer-electricity-reliability/app/)
