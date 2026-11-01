@@ -1,71 +1,199 @@
-    :root {
-      color-scheme: light dark;
-    }
+:root {
+  color-scheme: light dark;
+}
 
-    body {
-      font-family: system-ui, sans-serif;
-      line-height: 1.5;
-      margin: 0;
-    }
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
 
-    header,
-    main,
-    footer {
-      max-inline-size: 60rem;
-      margin-inline: auto;
-      padding-inline: 1rem;
-    }
+header,
+main,
+footer {
+  max-inline-size: 60rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
 
-    nav a {
-      margin-inline-end: 1rem;
-    }
+nav a {
+  margin-inline-end: 1rem;
+}
 
-    footer {
-      margin-block: 2rem;
-      font-size: 0.9rem;
-    }
+/* Primary navigation action */
+#nav .nav-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.65rem 1rem;
+  border-radius: 0.5rem;
+  background: light-dark(#146484, #72caed);
+  color: light-dark(#fff, #10212b);
+  font-weight: 600;
+  text-decoration: none;
+}
 
-    @media print {
-      nav {
-        display: none;
-      }
-    }
+#nav .nav-primary:hover {
+  background: light-dark(#0d4d66, #a1dff4);
+  text-decoration: none;
+}
 
-    main { padding-block: 1rem; }
-    .control-group { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; margin-block: 1rem; }
-    select { font: inherit; max-inline-size: 100%; padding: .45rem; }
-    .reliability-section { margin-block: 2rem; }
-    .metric-card { border: 1px solid #8293a0; border-radius: .75rem; padding: 1.25rem; max-inline-size: 32rem; background: light-dark(#f0f7fa, #162c37); }
-    .metric-card h3, .metric-card p { margin: 0 0 .4rem; }
-    .metric-value { font-size: clamp(2rem, 7vw, 3rem); font-weight: 700; line-height: 1.2; }
-    .metric-context { font-size: .9rem; }
-    .yearly-chart { margin: 0; min-inline-size: 0; }
-    .yearly-chart figcaption { font-size: .9rem; }
-    .yearly-chart svg { display: block; width: 100%; height: auto; overflow: visible; }
-    .yearly-chart text { fill: currentColor; font-family: inherit; font-size: 12px; }
-    .chart-grid { stroke: currentColor; opacity: .2; }
-    .chart-bar, .chart-zero { fill: light-dark(#146484, #72caed); }
-    .chart-gap { font-weight: bold; }
-    .chart-legend { font-size: .9rem; }
-    .metric-insights { border-inline-start: 4px solid light-dark(#146484, #72caed); padding-inline-start: 1rem; }
-    .table-scroll { overflow-x: auto; margin-block-start: 2rem; }
-    table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
-    caption { text-align: start; font-weight: 600; margin-block-end: .75rem; }
-    th, td { text-align: start; padding: .65rem; border-block-end: 1px solid #8293a0; }
-    th { vertical-align: bottom; }
-    :focus-visible { outline: 3px solid light-dark(#146484, #72caed); outline-offset: 3px; }
-    @media (max-width: 420px) {
-      header, main, footer { padding-inline: .75rem; }
-      .control-group { align-items: stretch; flex-direction: column; }
-      .metric-card { padding: 1rem; }
-    }
+#nav .nav-primary:focus-visible {
+  outline: 3px solid light-dark(#146484, #72caed);
+  outline-offset: 3px;
+}
 
-    .metric-cards, .metric-histories { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
-    .metric-history { min-inline-size: 0; }
-    .metric-history h4 { font-size: 1rem; }
-    .metric-history .metric-insights, .metric-history > p { font-size: .9rem; }
-    .metric-histories .chart-legend { font-size: .8rem; }
-    @media (max-width: 760px) {
-      .metric-cards, .metric-histories { grid-template-columns: minmax(0, 1fr); }
-      .metric-card { max-inline-size: none; }
-    }
+footer {
+  margin-block: 2rem;
+  font-size: 0.9rem;
+}
+
+@media print {
+  nav {
+    display: none;
+  }
+}
+
+main {
+  padding-block: 1rem;
+}
+.control-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  margin-block: 1rem;
+}
+select {
+  font: inherit;
+  max-inline-size: 100%;
+  padding: 0.45rem;
+}
+.reliability-section {
+  margin-block: 2rem;
+}
+.metric-card {
+  border: 1px solid #8293a0;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  max-inline-size: 32rem;
+  background: light-dark(#f0f7fa, #162c37);
+}
+.metric-card h3,
+.metric-card p {
+  margin: 0 0 0.4rem;
+}
+.metric-value {
+  font-size: clamp(2rem, 7vw, 3rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+.metric-context {
+  font-size: 0.9rem;
+}
+.yearly-chart {
+  margin: 0;
+  min-inline-size: 0;
+}
+.yearly-chart figcaption {
+  font-size: 0.9rem;
+}
+.yearly-chart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+.yearly-chart text {
+  fill: currentColor;
+  font-family: inherit;
+  font-size: 12px;
+}
+.chart-grid {
+  stroke: currentColor;
+  opacity: 0.2;
+}
+.chart-bar,
+.chart-zero {
+  fill: light-dark(#146484, #72caed);
+}
+.chart-gap {
+  font-weight: bold;
+}
+.chart-legend {
+  font-size: 0.9rem;
+}
+.metric-insights {
+  border-inline-start: 4px solid light-dark(#146484, #72caed);
+  padding-inline-start: 1rem;
+}
+.table-scroll {
+  overflow-x: auto;
+  margin-block-start: 2rem;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-variant-numeric: tabular-nums;
+}
+caption {
+  text-align: start;
+  font-weight: 600;
+  margin-block-end: 0.75rem;
+}
+th,
+td {
+  text-align: start;
+  padding: 0.65rem;
+  border-block-end: 1px solid #8293a0;
+}
+th {
+  vertical-align: bottom;
+}
+:focus-visible {
+  outline: 3px solid light-dark(#146484, #72caed);
+  outline-offset: 3px;
+}
+@media (max-width: 420px) {
+  header,
+  main,
+  footer {
+    padding-inline: 0.75rem;
+  }
+  .control-group {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .metric-card {
+    padding: 1rem;
+  }
+}
+
+.metric-cards,
+.metric-histories {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+.metric-history {
+  min-inline-size: 0;
+}
+.metric-history h4 {
+  font-size: 1rem;
+}
+.metric-history .metric-insights,
+.metric-history > p {
+  font-size: 0.9rem;
+}
+.metric-histories .chart-legend {
+  font-size: 0.8rem;
+}
+@media (max-width: 760px) {
+  .metric-cards,
+  .metric-histories {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .metric-card {
+    max-inline-size: none;
+  }
+}

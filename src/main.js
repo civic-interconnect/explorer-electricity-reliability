@@ -53,6 +53,10 @@ function renderNav() {
     anchor.href = link.href;
     anchor.textContent = t(link.labelKey);
 
+    if (link.labelKey === "nav.search") {
+      anchor.classList.add("nav-primary");
+    }
+
     if (link.external) {
       anchor.target = "_blank";
       anchor.rel = "noopener noreferrer";
