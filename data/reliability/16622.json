@@ -1,0 +1,1 @@
+{"schemaVersion":"1.0.0","id":"16622","name":"San Miguel Power Assn, Inc","units":{"saidi":"minutes","saifi":"interruptions","caidi":"minutes"},"records":[{"state":"CO","year":2021,"standard":"ieee_standard","entityType":"Cooperative","customers":null,"metrics":{}},{"state":"CO","year":2021,"standard":"other_standard","entityType":"Cooperative","customers":null,"metrics":{}}]}

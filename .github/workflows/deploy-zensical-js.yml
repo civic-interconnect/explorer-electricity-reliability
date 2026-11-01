@@ -1,0 +1,192 @@
+# ============================================================
+# .github/workflows/deploy-zensical-js.yml (CUSTOM JS+ALL-PY-REPOS)
+# ============================================================
+# Updated: 2026-11-01
+#
+# WHAT: Publish the standard Zensical documentation site plus a static
+#       JavaScript application under /app/ using one GitHub Pages artifact.
+# WHY: Preserve the standard docs/ -> site/ workflow and add a browser app,
+#      following the BB extension used by deploy-zensical-lean.yml.
+# TRIGGER: Push to main, or manually from the GitHub Actions tab.
+#
+# REQ: Repository Settings > Pages > Build and deployment > Source:
+#      GitHub Actions.
+# REQ: Repository contains .python-version, uv.lock, and zensical.toml.
+# REQ: Zensical config uses docs_dir = "docs" and site_dir = "site".
+# REQ: Python dependencies come from the committed uv.lock (never update it).
+# REQ: The browser application has index.html at the repository root.
+# REQ: Each public asset path below is explicitly approved for publication.
+# OBS: This variant serves plain browser JavaScript; it does not run a JS bundler.
+# OBS: JavaScript linting, typechecking, and tests belong in the CI workflow.
+# OBS: Only ONE workflow in a repository may deploy to GitHub Pages.
+# CUSTOM: Change APP_PUBLIC_PATHS / APP_OPTIONAL_PATHS / APP_ENTRYPOINT for
+#         other static JavaScript projects. Never publish sensitive source data.
+# ============================================================
+
+name: Docs Deploy (Zensical and JavaScript)
+
+on:
+  push:
+    branches: [main] # WHY: Deploy on every confirmed push to main.
+  workflow_dispatch: # WHY: Allow manual redeploy from the Actions tab.
+
+permissions:
+  contents: read # WHY: Needed to checkout code.
+  id-token: write # WHY: Required by deploy-pages for OIDC authentication.
+  pages: write # WHY: Required to deploy to GitHub Pages.
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+  # WHY: GitHub Pages is a shared deployment target.
+  # OBS: Do not cancel an in-progress Pages deployment.
+
+env:
+  PYTHONUNBUFFERED: "1" # WHY: Real-time log output in CI.
+  PYTHONIOENCODING: "utf-8" # WHY: Consistent encoding across platforms.
+  UV_FROZEN: "1" # WHY: Deployment MUST use uv.lock without updating it.
+
+  # CUSTOM: Explicit allowlist of source files/directories to publish at /app/.
+  # REQ: These paths must exist; the build fails if any are missing.
+  APP_PUBLIC_PATHS: "index.html src locales glossary config contracts data"
+  # CUSTOM: These are copied if present; customize for each application.
+  APP_OPTIONAL_PATHS: "index.css assets"
+  # CUSTOM: Browser entrypoint to verify in the assembled site.
+  APP_ENTRYPOINT: "src/main.js"
+
+jobs:
+  docs:
+    name: Deploy Documentation and JavaScript app
+    runs-on: ubuntu-latest
+    timeout-minutes: 30 # WHY: Fail fast if a step hangs unexpectedly.
+
+    steps:
+      # ============================================================
+      # A) ASSEMBLE: Checkout code and set up Python environment
+      # ============================================================
+
+      - name: A1) Checkout repository code
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+        # WHY: Required so subsequent steps can access repository files.
+
+      - name: A2) Configure GitHub Pages
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6
+        # WHY: Sets Pages metadata used by upload-pages-artifact and deploy-pages.
+
+      - name: A3) Install uv (with caching)
+        uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+        # WHY: Invalidate dependency cache when the committed lockfile changes.
+
+      - name: A4) Install project Python
+        run: uv python install
+        # WHY: Uses the declared .python-version in the CI environment.
+
+      - name: A5) Install dependencies from committed lockfile
+        run: uv sync --frozen
+        # REQ: Fail rather than update a stale uv.lock.
+
+      - name: A6) Show tool versions
+        run: |
+          uv --version
+          uv run python --version
+          if [ -f "zensical.toml" ]; then
+            uv run python -m zensical --version
+          fi
+        # WHY: Version output makes deployment failures easier to diagnose.
+
+      # ============================================================
+      # B) BUILD ZENSICAL SITE
+      # ============================================================
+
+      - name: B1) Build docs with Zensical
+        run: |
+          if [ ! -f "zensical.toml" ]; then
+            echo "zensical.toml not found; refusing to deploy." >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+          uv run python -m zensical build
+        # WHY: A deployment without the docs is a hard failure.
+
+      - name: B2) Verify Zensical output
+        run: |
+          if [ ! -f "site/index.html" ]; then
+            echo "## Zensical output missing" >> "$GITHUB_STEP_SUMMARY"
+            echo "Expected site/index.html was not created." >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
+        # REQ: docs/ must be the published site root, not /app/.
+
+      # ============================================================
+      # BB) ADD STATIC JAVASCRIPT APPLICATION (CUSTOM)
+      # ============================================================
+
+      - name: BB1) Assemble static JavaScript application
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          # Keep Zensical's site root intact; reserve /app/ for JavaScript.
+          if [ -e "site/app" ]; then
+            echo "site/app already exists; refusing to overwrite Zensical output." >&2
+            exit 1
+          fi
+          mkdir -p site/app
+
+          # Only copy explicitly approved public paths, never the whole repo.
+          read -r -a required_paths <<< "$APP_PUBLIC_PATHS"
+          for path in "${required_paths[@]}"; do
+            if [ ! -e "$path" ]; then
+              echo "Required public app asset missing: $path" >&2
+              exit 1
+            fi
+            cp -R -- "$path" site/app/
+          done
+
+          read -r -a optional_paths <<< "$APP_OPTIONAL_PATHS"
+          for path in "${optional_paths[@]}"; do
+            if [ -e "$path" ]; then
+              cp -R -- "$path" site/app/
+            fi
+          done
+
+          # This starter app imports index.css from index.html.
+          # Do not deploy a broken stylesheet reference silently.
+          if grep -Fq 'index.css' index.html && [ ! -f 'site/app/index.css' ]; then
+            echo "index.html references index.css, but index.css is missing." >&2
+            exit 1
+          fi
+        # WHY: Creates site/app/ without changing docs/ or source directories.
+        # CUSTOM: Review the asset allowlist when adopting in another repo.
+
+      - name: BB2) Verify combined documentation and app site
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f site/index.html
+          test -f site/app/index.html
+          test -f "site/app/$APP_ENTRYPOINT"
+
+          echo "## GitHub Pages site" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Zensical documentation: site/index.html (/)" >> "$GITHUB_STEP_SUMMARY"
+          echo "- JavaScript application: site/app/index.html (/app/)" >> "$GITHUB_STEP_SUMMARY"
+          echo "- App entrypoint: site/app/$APP_ENTRYPOINT" >> "$GITHUB_STEP_SUMMARY"
+        # WHY: Verify both public surfaces before the upload step.
+
+      # ============================================================
+      # D) DEPLOY
+      # ============================================================
+
+      - name: D1) Upload Pages artifact
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5
+        with:
+          path: site
+        # WHY: Packages the combined static site for deploy-pages.
+
+      - name: D2) Deploy to GitHub Pages
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5
+        # WHY: Publishes Zensical docs and JavaScript app together.

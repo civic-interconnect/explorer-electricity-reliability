@@ -1,0 +1,57 @@
+{
+  "@context": "https://w3id.org/codemeta/3.1",
+  "@type": "SoftwareSourceCode",
+  "@id": "https://github.com/civic-interconnect/explorer-electricity-reliability",
+  "name": "Electricity Reliability Explorer",
+  "version": "0.1.0",
+  "description": "An open, no-login explorer for annual U.S. electric utility reliability data, including SAIDI, SAIFI, and CAIDI, with methods, definitions, and reporting limitations explained.",
+  "codeRepository": "https://github.com/civic-interconnect/explorer-electricity-reliability",
+  "url": "https://civic-interconnect.github.io/explorer-electricity-reliability/",
+  "issueTracker": "https://github.com/civic-interconnect/explorer-electricity-reliability/issues",
+  "license": "https://spdx.org/licenses/Apache-2.0.html",
+  "dateCreated": "2026",
+  "programmingLanguage": [
+    "JavaScript",
+    "Python"
+  ],
+  "runtimePlatform": "Web browser",
+  "applicationCategory": "Data visualization",
+  "applicationSubCategory": "Electricity reliability statistics",
+  "keywords": [
+    "electricity reliability",
+    "EIA-861",
+    "PUDL",
+    "SAIDI",
+    "SAIFI",
+    "CAIDI",
+    "electric utilities",
+    "open data"
+  ],
+  "author": {
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0001-6165-7389",
+    "givenName": "Denise M.",
+    "familyName": "Case"
+  },
+  "maintainer": {
+    "@type": "Person",
+    "@id": "https://orcid.org/0000-0001-6165-7389",
+    "givenName": "Denise M.",
+    "familyName": "Case"
+  },
+  "producer": {
+    "@type": "Organization",
+    "@id": "https://github.com/civic-interconnect",
+    "name": "Civic Interconnect",
+    "url": "https://github.com/civic-interconnect"
+  },
+  "developmentStatus": "active",
+  "isAccessibleForFree": true,
+  "softwareHelp": "https://civic-interconnect.github.io/explorer-electricity-reliability/docs/",
+  "continuousIntegration": "https://github.com/civic-interconnect/explorer-electricity-reliability/actions",
+  "releaseNotes": "https://github.com/civic-interconnect/explorer-electricity-reliability/releases",
+  "relatedLink": [
+    "https://www.eia.gov/electricity/data/eia861/",
+    "https://catalyst.coop/pudl/"
+  ]
+}

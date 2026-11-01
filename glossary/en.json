@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0.0",
+  "language": "en",
+  "entries": {
+    "saidi": {
+      "label": "SAIDI (System Average Interruption Duration Index)",
+      "definition": "The average total time a customer was without power during the year, in minutes. Each interruption's duration is multiplied by the number of customers it affected, the results are added up, and the total is divided by the number of customers served.",
+      "variables": {
+        "r_i": "Restoration time of interruption i, in minutes.",
+        "N_i": "Number of customers interrupted in interruption i.",
+        "N_T": "Total number of customers served."
+      }
+    },
+    "saifi": {
+      "label": "SAIFI (System Average Interruption Frequency Index)",
+      "definition": "The average number of interruptions a customer experienced during the year. Whether brief interruptions are counted depends on the reporting method.",
+      "variables": {
+        "N_i": "Number of customers interrupted in interruption i.",
+        "N_T": "Total number of customers served."
+      }
+    },
+    "caidi": {
+      "label": "CAIDI (Customer Average Interruption Duration Index)",
+      "definition": "The average time to restore service for a customer who was interrupted, in minutes. It is SAIDI divided by SAIFI.",
+      "variables": {
+        "SAIDI": "System Average Interruption Duration Index, in minutes.",
+        "SAIFI": "System Average Interruption Frequency Index, in interruptions."
+      }
+    },
+    "major-event-day": {
+      "label": "Major event day",
+      "definition": "A day with unusually severe conditions, such as a major storm, when interruptions are so extensive that a utility may report its results with and without that day. Under the IEEE method such days are identified with a statistical threshold. Other methods may define them differently."
+    },
+    "method-ieee-1366": {
+      "label": "IEEE 1366 method",
+      "definition": "The utility reported that it calculates its reliability indices, and identifies major event days, according to the IEEE 1366 standard."
+    },
+    "method-other": {
+      "label": "Other method",
+      "definition": "The utility reported using a method other than the IEEE standard. Its figures may not be directly comparable with those of utilities that use the IEEE method."
+    },
+    "method-unknown": {
+      "label": "Method not stated",
+      "definition": "The reporting method was not stated, so comparing these figures with others requires care."
+    },
+    "variant-including-major-event-days": {
+      "label": "Including major event days",
+      "definition": "Figures that count every day of the year, including major event days such as severe storms."
+    },
+    "variant-excluding-major-event-days": {
+      "label": "Excluding major event days",
+      "definition": "Figures that leave out major event days, to show service on more ordinary days."
+    },
+    "variant-including-major-event-days-excluding-loss-of-supply": {
+      "label": "Including major event days, excluding loss of supply",
+      "definition": "Figures that include major event days but leave out interruptions caused by a loss of supply, meaning a failure upstream of the utility's own distribution system."
+    }
+  }
+}

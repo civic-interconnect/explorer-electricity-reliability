@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0.0",
+  "jurisdictions": [
+    {
+      "id": "us",
+      "country": "US",
+      "subdivision": null,
+      "labelKey": "jurisdiction.us",
+      "dataBaseUrl": "https://civic-interconnect.github.io/civic-data-electricity-us-reliability/",
+      "manifestPath": "manifest.json"
+    }
+  ]
+}

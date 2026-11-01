@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.0.0",
+  "jurisdiction": "us",
+  "reportingYear": 2000,
+  "source": {
+    "name": "Synthetic test fixture. Not real data.",
+    "release": "none",
+    "license": "CC0-1.0",
+    "retrievedAt": "2000-01-01"
+  },
+  "units": {
+    "saidi": "minutes",
+    "saifi": "interruptions",
+    "caidi": "minutes"
+  },
+  "records": [
+    {
+      "utility": { "scheme": "example", "value": "1", "name": "Example Utility A" },
+      "subdivision": "aa",
+      "ownership": "cooperative",
+      "customers": 40000,
+      "method": "ieee-1366",
+      "metrics": {
+        "including-major-event-days": { "saidi": 300, "saifi": 2, "caidi": 150 },
+        "excluding-major-event-days": { "saidi": 120, "saifi": 1.5, "caidi": 80 }
+      }
+    },
+    {
+      "utility": { "scheme": "example", "value": "2", "name": "Example Utility B" },
+      "subdivision": "bb",
+      "ownership": "investor-owned",
+      "customers": 900000,
+      "method": "other",
+      "metrics": {
+        "including-major-event-days": { "saidi": 200, "saifi": 1.2, "caidi": 166.7 }
+      }
+    },
+    {
+      "utility": { "scheme": "example", "value": "3", "name": "Example Utility C" },
+      "ownership": "municipal",
+      "customers": null,
+      "method": "unknown",
+      "metrics": {
+        "including-major-event-days": { "saidi": null, "saifi": null, "caidi": null }
+      }
+    }
+  ]
+}

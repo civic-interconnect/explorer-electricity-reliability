@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.0.0",
+  "concepts": [
+    {
+      "id": "saidi",
+      "kind": "metric",
+      "unit": "minutes",
+      "formula": {
+        "expression": "SAIDI = sum(r_i * N_i) / N_T",
+        "variables": ["r_i", "N_i", "N_T"]
+      },
+      "sources": [
+        {
+          "title": "PUDL table documentation: core_eia861__yearly_reliability",
+          "url": "https://data.catalyst.coop/preview/pudl/core_eia861__yearly_reliability"
+        },
+        { "title": "IEEE Std 1366, Guide for Electric Power Distribution Reliability Indices" }
+      ],
+      "related": ["saifi", "caidi", "major-event-day"],
+      "reviewed": false
+    },
+    {
+      "id": "saifi",
+      "kind": "metric",
+      "unit": "interruptions",
+      "formula": {
+        "expression": "SAIFI = sum(N_i) / N_T",
+        "variables": ["N_i", "N_T"]
+      },
+      "sources": [
+        {
+          "title": "PUDL table documentation: core_eia861__yearly_reliability",
+          "url": "https://data.catalyst.coop/preview/pudl/core_eia861__yearly_reliability"
+        },
+        { "title": "IEEE Std 1366, Guide for Electric Power Distribution Reliability Indices" }
+      ],
+      "related": ["saidi", "caidi", "major-event-day"],
+      "reviewed": false
+    },
+    {
+      "id": "caidi",
+      "kind": "metric",
+      "unit": "minutes",
+      "formula": {
+        "expression": "CAIDI = SAIDI / SAIFI",
+        "variables": ["SAIDI", "SAIFI"]
+      },
+      "sources": [
+        {
+          "title": "PUDL table documentation: core_eia861__yearly_reliability",
+          "url": "https://data.catalyst.coop/preview/pudl/core_eia861__yearly_reliability"
+        },
+        { "title": "IEEE Std 1366, Guide for Electric Power Distribution Reliability Indices" }
+      ],
+      "related": ["saidi", "saifi"],
+      "reviewed": false
+    },
+    {
+      "id": "major-event-day",
+      "kind": "term",
+      "sources": [
+        { "title": "IEEE Std 1366, Guide for Electric Power Distribution Reliability Indices" }
+      ],
+      "related": ["method-ieee-1366", "method-other"],
+      "reviewed": false
+    },
+    {
+      "id": "method-ieee-1366",
+      "kind": "method",
+      "sources": [
+        {
+          "title": "PUDL table documentation: core_eia861__yearly_reliability",
+          "url": "https://data.catalyst.coop/preview/pudl/core_eia861__yearly_reliability"
+        },
+        { "title": "IEEE Std 1366, Guide for Electric Power Distribution Reliability Indices" }
+      ],
+      "related": ["method-other"],
+      "reviewed": false
+    },
+    {
+      "id": "method-other",
+      "kind": "method",
+      "sources": [
+        {
+          "title": "PUDL table documentation: core_eia861__yearly_reliability",
+          "url": "https://data.catalyst.coop/preview/pudl/core_eia861__yearly_reliability"
+        }
+      ],
+      "related": ["method-ieee-1366"],
+      "reviewed": false
+    },
+    {
+      "id": "method-unknown",
+      "kind": "method",
+      "sources": [
+        {
+          "title": "PUDL table documentation: core_eia861__yearly_reliability",
+          "url": "https://data.catalyst.coop/preview/pudl/core_eia861__yearly_reliability"
+        }
+      ],
+      "reviewed": false
+    },
+    {
+      "id": "variant-including-major-event-days",
+      "kind": "variant",
+      "sources": [
+        {
+          "title": "PUDL table documentation: core_eia861__yearly_reliability",
+          "url": "https://data.catalyst.coop/preview/pudl/core_eia861__yearly_reliability"
+        }
+      ],
+      "related": ["major-event-day", "variant-excluding-major-event-days"],
+      "reviewed": false
+    },
+    {
+      "id": "variant-excluding-major-event-days",
+      "kind": "variant",
+      "sources": [
+        {
+          "title": "PUDL table documentation: core_eia861__yearly_reliability",
+          "url": "https://data.catalyst.coop/preview/pudl/core_eia861__yearly_reliability"
+        }
+      ],
+      "related": ["major-event-day", "variant-including-major-event-days"],
+      "reviewed": false
+    },
+    {
+      "id": "variant-including-major-event-days-excluding-loss-of-supply",
+      "kind": "variant",
+      "sources": [
+        {
+          "title": "PUDL table documentation: core_eia861__yearly_reliability",
+          "url": "https://data.catalyst.coop/preview/pudl/core_eia861__yearly_reliability"
+        }
+      ],
+      "related": ["major-event-day", "variant-including-major-event-days"],
+      "reviewed": false
+    }
+  ]
+}

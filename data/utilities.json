@@ -1,0 +1,7775 @@
+{
+  "schemaVersion": "1.0.0",
+  "utilities": [
+    {
+      "id": "213",
+      "name": "Alaska Electric Light & Power Co.",
+      "state": "AK",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "219",
+      "name": "Alaska Power and Telephone Co",
+      "state": "AK",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "599",
+      "name": "Anchorage Municipal Light and Power",
+      "state": "AK",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3522",
+      "name": "Chugach Electric Assn Inc",
+      "state": "AK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7353",
+      "name": "Golden Valley Elec Assn Inc",
+      "state": "AK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19558",
+      "name": "Homer Electric Assn Inc",
+      "state": "AK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10210",
+      "name": "Ketchikan Public Utilities",
+      "state": "AK",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11824",
+      "name": "Matanuska Electric Assn Inc",
+      "state": "AK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "195",
+      "name": "Alabama Power Co",
+      "state": "AL",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "241",
+      "name": "Albertville Municipal Utilities Board",
+      "state": "AL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "1149",
+      "name": "Baldwin County El Member Corp",
+      "state": "AL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3222",
+      "name": "Central Alabama Electric Coop",
+      "state": "AL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5309",
+      "name": "City of Dothan - (AL)",
+      "state": "AL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6145",
+      "name": "City of Fairhope - (AL)",
+      "state": "AL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9094",
+      "name": "City of Huntsville - (AL)",
+      "state": "AL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14146",
+      "name": "City of Opelika - (AL)",
+      "state": "AL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16829",
+      "name": "City of Scottsboro - (AL)",
+      "state": "AL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19225",
+      "name": "City of Troy - (AL)",
+      "state": "AL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4327",
+      "name": "Coosa Valley Electric Coop Inc",
+      "state": "AL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4430",
+      "name": "Covington Electric Coop, Inc",
+      "state": "AL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4618",
+      "name": "Cullman Electric Coop, Inc",
+      "state": "AL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4958",
+      "name": "Decatur Utilities",
+      "state": "AL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19219",
+      "name": "Diverse Power Incorporated",
+      "state": "AL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5204",
+      "name": "Dixie Electric Coop - (AL)",
+      "state": "AL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6491",
+      "name": "Foley Board of Utilities",
+      "state": "AL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9739",
+      "name": "Joe Wheeler Elec Member Corp",
+      "state": "AL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "30517",
+      "name": "Pioneer Electric Coop, Inc - (AL)",
+      "state": "AL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17252",
+      "name": "Singing River Elec Cooperative",
+      "state": "AL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17534",
+      "name": "South Alabama Elec Coop, Inc",
+      "state": "AL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18395",
+      "name": "Sylacauga Utilities Board",
+      "state": "AL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "18203",
+      "name": "Tallapoosa River Elec Coop Inc",
+      "state": "AL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19027",
+      "name": "Tombigbee Electric Coop, Inc",
+      "state": "AL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20841",
+      "name": "Wiregrass Electric Coop, Inc",
+      "state": "AL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "817",
+      "name": "Arkansas Valley Elec Coop Corp",
+      "state": "AR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "925",
+      "name": "Ashley Chicot Elec Coop, Inc",
+      "state": "AR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3093",
+      "name": "Carroll Electric Coop Corp - (AR)",
+      "state": "AR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8840",
+      "name": "City of Hope - (AR)",
+      "state": "AR",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13718",
+      "name": "City of North Little Rock - (AR)",
+      "state": "AR",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17184",
+      "name": "City of Siloam Springs - (AR)",
+      "state": "AR",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3712",
+      "name": "Clay County Electric Coop Corp - (AR)",
+      "state": "AR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4280",
+      "name": "Conway Corporation",
+      "state": "AR",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4509",
+      "name": "Craighead Electric Coop Corp",
+      "state": "AR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5860",
+      "name": "Empire District Electric Co",
+      "state": "AR",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "814",
+      "name": "Entergy Arkansas LLC",
+      "state": "AR",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "6342",
+      "name": "First Electric Coop Corp",
+      "state": "AR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13676",
+      "name": "North Arkansas Elec Coop, Inc",
+      "state": "AR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14063",
+      "name": "Oklahoma Gas & Electric Co",
+      "state": "AR",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14289",
+      "name": "Ozarks Electric Coop Corp - (AR)",
+      "state": "AR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14864",
+      "name": "Petit Jean Electric Coop Corp",
+      "state": "AR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17671",
+      "name": "Southwest Arkansas E C C",
+      "state": "AR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17698",
+      "name": "Southwestern Electric Power Co",
+      "state": "AR",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "20963",
+      "name": "Woodruff Electric Coop Corp",
+      "state": "AR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "803",
+      "name": "Arizona Public Service Co",
+      "state": "AZ",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "12351",
+      "name": "City of Mesa - (AZ)",
+      "state": "AZ",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "40165",
+      "name": "Dixie Escalante R E A, Inc",
+      "state": "AZ",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5438",
+      "name": "Duncan Valley Elec Coop, Inc",
+      "state": "AZ",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15048",
+      "name": "Electrical Dist No2 Pinal County",
+      "state": "AZ",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "30518",
+      "name": "Electrical Dist No3 Pinal County",
+      "state": "AZ",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "65261",
+      "name": "Gila River Indian Utility Authority (GRICUA)",
+      "state": "AZ",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7456",
+      "name": "Graham County Electric Coop Inc",
+      "state": "AZ",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "21538",
+      "name": "Mohave Electric Cooperative, Inc.",
+      "state": "AZ",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13314",
+      "name": "Navajo Tribal Utility Authority",
+      "state": "AZ",
+      "entityType": "State"
+    },
+    {
+      "id": "16572",
+      "name": "Salt River Project",
+      "state": "AZ",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "18280",
+      "name": "Sulphur Springs Valley E C Inc",
+      "state": "AZ",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19189",
+      "name": "Trico Electric Cooperative Inc",
+      "state": "AZ",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "24211",
+      "name": "Tucson Electric Power Co",
+      "state": "AZ",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "19728",
+      "name": "UNS Electric, Inc",
+      "state": "AZ",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "207",
+      "name": "Alameda Municipal Power",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "694",
+      "name": "Anza Electric Coop Inc",
+      "state": "CA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17612",
+      "name": "Bear Valley Electric Service",
+      "state": "CA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "590",
+      "name": "City of Anaheim - (CA)",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "1050",
+      "name": "City of Azusa",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "2507",
+      "name": "City of Burbank Water and Power - (CA)",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4003",
+      "name": "City of Colton - (CA)",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4390",
+      "name": "City of Corona - (CA)",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7294",
+      "name": "City of Glendale - (CA)",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8348",
+      "name": "City of Healdsburg - (CA)",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11124",
+      "name": "City of Lodi - (CA)",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11148",
+      "name": "City of Lompoc - (CA)",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "55787",
+      "name": "City of Moreno Valley - (CA)",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14401",
+      "name": "City of Palo Alto - (CA)",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14534",
+      "name": "City of Pasadena - (CA)",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "15783",
+      "name": "City of Redding - (CA)",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16088",
+      "name": "City of Riverside - (CA)",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16295",
+      "name": "City of Roseville - (CA)",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16655",
+      "name": "City of Santa Clara - (CA)",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17896",
+      "name": "City of Shasta Lake - (CA)",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19798",
+      "name": "City of Vernon - (CA)",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "58789",
+      "name": "DOD USMC Marine Air Ground Combat",
+      "state": "CA",
+      "entityType": "Federal"
+    },
+    {
+      "id": "9216",
+      "name": "Imperial Irrigation District",
+      "state": "CA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "10724",
+      "name": "Lassen Municipal Utility District",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "57483",
+      "name": "Liberty Utilities",
+      "state": "CA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "11208",
+      "name": "Los Angeles Department of Water & Power",
+      "state": "CA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12745",
+      "name": "Modesto Irrigation District",
+      "state": "CA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "14328",
+      "name": "Pacific Gas & Electric Co.",
+      "state": "CA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14354",
+      "name": "PacifiCorp",
+      "state": "CA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "15308",
+      "name": "Plumas-Sierra Rural Elec Coop",
+      "state": "CA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16534",
+      "name": "Sacramento Municipal Util Dist",
+      "state": "CA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "16609",
+      "name": "San Diego Gas & Electric Co",
+      "state": "CA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "17609",
+      "name": "Southern California Edison Co",
+      "state": "CA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "19229",
+      "name": "Truckee Donner P U D",
+      "state": "CA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "19281",
+      "name": "Turlock Irrigation District",
+      "state": "CA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "56146",
+      "name": "Black Hills Colorado Electric, LLC",
+      "state": "CO",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "3989",
+      "name": "City of Colorado Springs - (CO)",
+      "state": "CO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6604",
+      "name": "City of Fort Collins - (CO)",
+      "state": "CO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6610",
+      "name": "City of Fort Morgan",
+      "state": "CO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6638",
+      "name": "City of Fountain",
+      "state": "CO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10633",
+      "name": "City of Lamar - (CO)",
+      "state": "CO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11187",
+      "name": "City of Longmont",
+      "state": "CO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11256",
+      "name": "City of Loveland - (CO)",
+      "state": "CO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9336",
+      "name": "CORE Electric Cooperative",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5086",
+      "name": "Delta Montrose Electric Assn",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5862",
+      "name": "Empire Electric Assn, Inc",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7563",
+      "name": "Grand Valley Power",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7787",
+      "name": "Gunnison County Elec Assn.",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8773",
+      "name": "Holy Cross Electric Assn, Inc",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10539",
+      "name": "La Plata Electric Assn, Inc",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12866",
+      "name": "Moon Lake Electric Assn Inc",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12860",
+      "name": "Morgan County Rural Elec Assn",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13050",
+      "name": "Mountain Parks Electric, Inc",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13058",
+      "name": "Mountain View Elec Assn, Inc",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15257",
+      "name": "Poudre Valley REA, Inc",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15466",
+      "name": "Public Service Co of Colorado",
+      "state": "CO",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "16616",
+      "name": "San Isabel Electric Assn, Inc",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16603",
+      "name": "San Luis Valley R E C, Inc",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16622",
+      "name": "San Miguel Power Assn, Inc",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16649",
+      "name": "Sangre De Cristo Elec Assn Inc",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17592",
+      "name": "Southeast Colorado Power Assn",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19499",
+      "name": "United Power, Inc",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20576",
+      "name": "White River Electric Assn, Inc",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "21075",
+      "name": "Y-W Electric Assn Inc",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "21081",
+      "name": "Yampa Valley Electric Assn Inc",
+      "state": "CO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2089",
+      "name": "Bozrah Light & Power Company",
+      "state": "CT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13831",
+      "name": "City of Norwich - (CT)",
+      "state": "CT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4176",
+      "name": "Connecticut Light & Power Co",
+      "state": "CT",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "7716",
+      "name": "Groton Dept of Utilities - (CT)",
+      "state": "CT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20038",
+      "name": "Town of Wallingford - (CT)",
+      "state": "CT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19497",
+      "name": "United Illuminating Co",
+      "state": "CT",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "15270",
+      "name": "Potomac Electric Power Co",
+      "state": "DC",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "12540",
+      "name": "City of Milford - (DE)",
+      "state": "DE",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13519",
+      "name": "City of Newark - (DE)",
+      "state": "DE",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16852",
+      "name": "City of Seaford- (DE)",
+      "state": "DE",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "5070",
+      "name": "Delaware Electric Cooperative",
+      "state": "DE",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5027",
+      "name": "Delmarva Power",
+      "state": "DE",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "13424",
+      "name": "New Castle Municipal Serv Comm",
+      "state": "DE",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9616",
+      "name": "Beaches Energy Services",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3245",
+      "name": "Central Florida Elec Coop, Inc",
+      "state": "FL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3502",
+      "name": "Choctawhatche Elec Coop, Inc",
+      "state": "FL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1300",
+      "name": "City of Bartow - (FL)",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3774",
+      "name": "City of Clewiston",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8795",
+      "name": "City of Homestead - (FL)",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10620",
+      "name": "City of Lake Worth Beach - (FL)",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10623",
+      "name": "City of Lakeland - (FL)",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10868",
+      "name": "City of Leesburg - (FL)",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13033",
+      "name": "City of Mount Dora - (FL)",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13521",
+      "name": "City of Newberry - (FL)",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13955",
+      "name": "City of Ocala",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "15566",
+      "name": "City of Quincy - (FL)",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "18004",
+      "name": "City of Starke - (FL)",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "18445",
+      "name": "City of Tallahassee - (FL)",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19804",
+      "name": "City of Vero Beach - (FL)",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "58124",
+      "name": "City of Winter Park - (FL)",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3757",
+      "name": "Clay Electric Cooperative, Inc - (FL)",
+      "state": "FL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6455",
+      "name": "Duke Energy Florida, LLC",
+      "state": "FL",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "6443",
+      "name": "Florida Keys El Coop Assn, Inc",
+      "state": "FL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6452",
+      "name": "Florida Power & Light Co",
+      "state": "FL",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "6457",
+      "name": "Florida Public Utilities Co",
+      "state": "FL",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "6616",
+      "name": "Fort Pierce Utilities Authority",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6909",
+      "name": "Gainesville Regional Utilities",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7264",
+      "name": "Glades Electric Coop, Inc",
+      "state": "FL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7785",
+      "name": "Gulf Coast Electric Coop, Inc",
+      "state": "FL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7801",
+      "name": "Gulf Power Co",
+      "state": "FL",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "8276",
+      "name": "Havana Power & Light Company",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9617",
+      "name": "JEA",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10376",
+      "name": "Kissimmee Utility Authority",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10857",
+      "name": "Lee County Electric Coop, Inc - (FL)",
+      "state": "FL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13485",
+      "name": "New Smyrna Beach City of",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "31833",
+      "name": "Okefenoke Rural El Member Corp",
+      "state": "FL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14610",
+      "name": "Orlando Utilities Comm",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14606",
+      "name": "Peace River Electric Coop, Inc",
+      "state": "FL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18304",
+      "name": "Sumter Electric Coop, Inc",
+      "state": "FL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18360",
+      "name": "Suwannee Valley Elec Coop Inc",
+      "state": "FL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18449",
+      "name": "Talquin Electric Coop, Inc",
+      "state": "FL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18454",
+      "name": "Tampa Electric Co",
+      "state": "FL",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "19161",
+      "name": "Tri-County Electric Coop, Inc (FL)",
+      "state": "FL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10226",
+      "name": "Utility Board of the City of Key West, F",
+      "state": "FL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20371",
+      "name": "West Florida El Coop Assn, Inc",
+      "state": "FL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20885",
+      "name": "Withlacoochee River Elec Coop",
+      "state": "FL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "230",
+      "name": "Albany Utility Board",
+      "state": "GA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "407",
+      "name": "Altamaha Electric Member Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "562",
+      "name": "Amicalola Electric Member Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1891",
+      "name": "Blue Ridge Mountain EMC - (GA)",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3081",
+      "name": "Carroll Electric Member Corp - (GA)",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3248",
+      "name": "Central Georgia El Member Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2812",
+      "name": "City of Calhoun - (GA)",
+      "state": "GA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11646",
+      "name": "City of Marietta - (GA)",
+      "state": "GA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "18848",
+      "name": "City of Thomasville - (GA)",
+      "state": "GA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3843",
+      "name": "Coastal Electric Member Corp - (GA)",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3916",
+      "name": "Cobb Electric Membership Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4432",
+      "name": "Coweta-Fayette El Member Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4538",
+      "name": "Crisp County Power Comm",
+      "state": "GA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "19219",
+      "name": "Diverse Power Incorporated",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5905",
+      "name": "Excelsior Electric Member Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6411",
+      "name": "Flint Electric Membership Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7140",
+      "name": "Georgia Power Co",
+      "state": "GA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "7450",
+      "name": "Grady Electric Membership Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7090",
+      "name": "GreyStone Power Corporation",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7887",
+      "name": "Habersham Electric Membership Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8210",
+      "name": "Hart Electric Member Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9601",
+      "name": "Jackson Electric Member Corp - (GA)",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9689",
+      "name": "Jefferson Electric Member Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12706",
+      "name": "Mitchell Electric Member Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13547",
+      "name": "Newnan Wtr, Sewer & Light Comm",
+      "state": "GA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13716",
+      "name": "North Georgia Elec Member Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "31833",
+      "name": "Okefenoke Rural El Member Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15700",
+      "name": "Rayle Electric Membership Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16865",
+      "name": "Sawnee Electric Membership Corporation",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17832",
+      "name": "Snapping Shoals El Member Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10624",
+      "name": "Southern Rivers Energy",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18305",
+      "name": "Sumter Electric Member Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18499",
+      "name": "Three Notch Elec Member Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18956",
+      "name": "Tri-County Elec Member Corp (GA)",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20065",
+      "name": "Walton Electric Member Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20146",
+      "name": "Washington Elec Member Corp",
+      "state": "GA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8287",
+      "name": "Hawaii Electric Light Co Inc",
+      "state": "HI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "19547",
+      "name": "Hawaiian Electric Co Inc",
+      "state": "HI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "10071",
+      "name": "Kauai Island Utility Cooperative",
+      "state": "HI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11843",
+      "name": "Maui Electric Co Ltd",
+      "state": "HI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "16611",
+      "name": "Access Energy Coop",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "329",
+      "name": "Allamakee-Clayton El Coop, Inc",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13143",
+      "name": "Board of Water Electric & Communications",
+      "state": "IA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "2652",
+      "name": "Butler County Rural Elec Coop - (IA)",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4040",
+      "name": "Calhoun County Elec Coop Assn",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3203",
+      "name": "Cedar Falls Utilities",
+      "state": "IA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3314",
+      "name": "Chariton Valley Elec Coop, Inc",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "309",
+      "name": "City of Algona - (IA)",
+      "state": "IA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "554",
+      "name": "City of Ames - (IA)",
+      "state": "IA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9230",
+      "name": "City of Independence - (IA)",
+      "state": "IA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17783",
+      "name": "City of Spencer - (IA)",
+      "state": "IA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3722",
+      "name": "Clarke Electric Coop Inc - (IA)",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11788",
+      "name": "Consumers Energy Coop - (IA)",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11053",
+      "name": "Corridor Energy Cooperative",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5588",
+      "name": "East-Central Iowa Rural Elec Coop",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5605",
+      "name": "Eastern Iowa Light & Power Coop",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6168",
+      "name": "Farmers Electric Coop - (IA)",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6112",
+      "name": "Farmers Electric Coop, Inc - (IA)",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6722",
+      "name": "Franklin Rural Electric Coop - (IA)",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7864",
+      "name": "Grundy County Rural Elec Coop",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8122",
+      "name": "Harlan Municipal Utilities - (IA)",
+      "state": "IA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8283",
+      "name": "Harrison County Rrl Elec Coop",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8298",
+      "name": "Hawkeye Tri-County El Coop Inc",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8319",
+      "name": "Heartland Power Coop",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9275",
+      "name": "Indianola Municipal Utilities",
+      "state": "IA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9417",
+      "name": "Interstate Power and Light Co",
+      "state": "IA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "9425",
+      "name": "Iowa Lakes Electric Coop",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11298",
+      "name": "Lyon Rural Electric Coop",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12642",
+      "name": "Maquoketa Valley Rrl Elec Coop",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12341",
+      "name": "MidAmerican Energy Co",
+      "state": "IA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "12450",
+      "name": "Midland Power Coop",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19157",
+      "name": "MiEnergy Cooperative",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13675",
+      "name": "Nishnabotna Valley R E C",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17260",
+      "name": "North West Rural Electric Coop",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14202",
+      "name": "Osceola Electric Coop, Inc",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "26765",
+      "name": "Pella Cooperative Elec Assn",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15291",
+      "name": "Prairie Energy Coop",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7303",
+      "name": "Raccoon Valley Electric Cooperative",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17643",
+      "name": "Southern Iowa Elec Coop, Inc",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "49986",
+      "name": "Southwest Iowa Rural Elec Coop",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18446",
+      "name": "T I P Rural Electric Coop",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20214",
+      "name": "Waverly Municipal Elec Utility",
+      "state": "IA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19437",
+      "name": "Western Iowa Power Coop",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20951",
+      "name": "Woodbury County Rural E C A",
+      "state": "IA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20169",
+      "name": "Avista Corp",
+      "state": "ID",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "9187",
+      "name": "City of Idaho Falls - (ID)",
+      "state": "ID",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3739",
+      "name": "Clearwater Power Company",
+      "state": "ID",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6169",
+      "name": "Fall River Rural Elec Coop Inc",
+      "state": "ID",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9191",
+      "name": "Idaho Power Co",
+      "state": "ID",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "10454",
+      "name": "Kootenai Electric Cooperative",
+      "state": "ID",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12692",
+      "name": "Missoula Electric Coop, Inc",
+      "state": "ID",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13758",
+      "name": "Northern Lights, Inc",
+      "state": "ID",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14354",
+      "name": "PacifiCorp",
+      "state": "ID",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "16565",
+      "name": "Salmon River Electric Coop Inc",
+      "state": "ID",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19502",
+      "name": "United Electric Co-op, Inc - (ID)",
+      "state": "ID",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "97",
+      "name": "Adams Electric Coop",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "56697",
+      "name": "Ameren Illinois Company",
+      "state": "IL",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "1325",
+      "name": "City of Batavia - (IL)",
+      "state": "IL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7096",
+      "name": "City of Geneva - (IL)",
+      "state": "IL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8573",
+      "name": "City of Highland",
+      "state": "IL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13208",
+      "name": "City of Naperville - (IL)",
+      "state": "IL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17828",
+      "name": "City of Springfield - (IL)",
+      "state": "IL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17860",
+      "name": "City of St Charles - (IL)",
+      "state": "IL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3726",
+      "name": "Clay Electric Coop Inc",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4110",
+      "name": "Commonwealth Edison Co",
+      "state": "IL",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "4362",
+      "name": "Corn Belt Energy Corporation",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5585",
+      "name": "Eastern Illinois Elec Coop",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5535",
+      "name": "Egyptian Electric Coop Assn",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5531",
+      "name": "Enerstar Power Corp",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9209",
+      "name": "Illinois Rural Electric Coop",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9750",
+      "name": "Jo-Carroll Energy, Inc",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8824",
+      "name": "M J M Electric Cooperative Inc",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12395",
+      "name": "Menard Electric Coop",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12341",
+      "name": "MidAmerican Energy Co",
+      "state": "IL",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "12803",
+      "name": "Monroe County Elec Coop, Inc",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13032",
+      "name": "Mt Carmel Public Utility Co",
+      "state": "IL",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "16179",
+      "name": "Rochelle Municipal Utilities - (IL)",
+      "state": "IL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16196",
+      "name": "Rock Energy Cooperative",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16420",
+      "name": "Rural Electric Conven Coop",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17040",
+      "name": "Shelby Electric Coop, Inc",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17585",
+      "name": "Southeastern IL Elec Coop, Inc",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17631",
+      "name": "Southern Illinois Elec Coop",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17697",
+      "name": "Southwestern Electric Coop Inc - (IL)",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18955",
+      "name": "Tri-County Electric Coop, Inc (IL)",
+      "state": "IL",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20824",
+      "name": "Village of Winnetka - (IL)",
+      "state": "IL",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9273",
+      "name": "AES Indiana",
+      "state": "IN",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "1283",
+      "name": "Bartholomew County Rural E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "24753",
+      "name": "Boone County Rural EMC",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "27599",
+      "name": "Carroll-White REMC",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "636",
+      "name": "City of Anderson - (IN)",
+      "state": "IN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "994",
+      "name": "City of Auburn - (IN)",
+      "state": "IN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7627",
+      "name": "City of Greenfield - (IN)",
+      "state": "IN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9667",
+      "name": "City of Jasper - (IN)",
+      "state": "IN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9613",
+      "name": "City of Lebanon - (IN)",
+      "state": "IN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14839",
+      "name": "City of Peru - (IN)",
+      "state": "IN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "15989",
+      "name": "City of Richmond - (IN)",
+      "state": "IN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "18538",
+      "name": "City of Tell City - (IN)",
+      "state": "IN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "22822",
+      "name": "Clark County Rural E M C - (IN)",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4508",
+      "name": "Crawfordsville Elec, Lgt & Pwr",
+      "state": "IN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4848",
+      "name": "Daviess Martin County R E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4960",
+      "name": "Decatur County Rural E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5394",
+      "name": "Dubois Rural Electric Coop Inc",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15470",
+      "name": "Duke Energy Indiana, LLC",
+      "state": "IN",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "8179",
+      "name": "Harrison County Rural E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8447",
+      "name": "Hendricks County Rural E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8466",
+      "name": "Henry County Rural E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9324",
+      "name": "Indiana Michigan Power Co",
+      "state": "IN",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "9576",
+      "name": "Jackson County Rural E M C - (IN)",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9665",
+      "name": "Jasper County Rural E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9778",
+      "name": "Johnson County Rural E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9999",
+      "name": "Kankakee Valley Rural E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10448",
+      "name": "Kosciusko County Rural E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10562",
+      "name": "Lagrange County Rural E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10798",
+      "name": "Lawrenceburg Municipal Utils",
+      "state": "IN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8000",
+      "name": "NineStar Connect",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13647",
+      "name": "Noble County R E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20603",
+      "name": "Northeastern Rural E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13756",
+      "name": "Northern Indiana Pub Serv Co",
+      "state": "IN",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14471",
+      "name": "Parke County Rural E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17038",
+      "name": "RushShelby Energy",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12929",
+      "name": "South Central Indiana REMC",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17599",
+      "name": "Southeastern Indiana R E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17633",
+      "name": "Southern Indiana Gas & Elec Co",
+      "state": "IN",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "19445",
+      "name": "Southern Indiana R E C, Inc",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18100",
+      "name": "Steuben County Rural E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18940",
+      "name": "Tipmont Rural Elec Member Corp",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19667",
+      "name": "Utilities Dist-Western IN REMC",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19887",
+      "name": "Wabash County Rural E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20111",
+      "name": "Warren County Rural E M C",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "25295",
+      "name": "Western Indiana Energy REMC",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20216",
+      "name": "Whitewater Valley Rural EMC",
+      "state": "IN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "296",
+      "name": "Alfalfa Electric Coop, Inc",
+      "state": "KS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2641",
+      "name": "Butler Rural El Coop Assn, Inc - (KS)",
+      "state": "KS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2961",
+      "name": "Caney Valley El Coop Assn, Inc",
+      "state": "KS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3355",
+      "name": "City of Chanute",
+      "state": "KS",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3892",
+      "name": "City of Coffeyville - (KS)",
+      "state": "KS",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6941",
+      "name": "City of Garden City",
+      "state": "KS",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9996",
+      "name": "City of Kansas City - (KS)",
+      "state": "KS",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12208",
+      "name": "City of McPherson - (KS)",
+      "state": "KS",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13029",
+      "name": "City of Moundridge - (KS)",
+      "state": "KS",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14229",
+      "name": "City of Ottawa - (KS)",
+      "state": "KS",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16440",
+      "name": "City of Russell - (KS)",
+      "state": "KS",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4704",
+      "name": "DS&O Electric Cooperative, Inc.",
+      "state": "KS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5860",
+      "name": "Empire District Electric Co",
+      "state": "KS",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "22500",
+      "name": "Evergy Kansas Central, Inc",
+      "state": "KS",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "10005",
+      "name": "Evergy Kansas South, Inc",
+      "state": "KS",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "10000",
+      "name": "Evergy Metro",
+      "state": "KS",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "6431",
+      "name": "Flint Hills Rural E C A, Inc",
+      "state": "KS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10019",
+      "name": "FreeState Electric Coop",
+      "state": "KS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16854",
+      "name": "Heartland Rural Elec Coop, Inc",
+      "state": "KS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10801",
+      "name": "Leavenworth-Jefferson E C, Inc",
+      "state": "KS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12524",
+      "name": "Midwest Energy Inc - (KS)",
+      "state": "KS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13386",
+      "name": "Nemaha-Marshall E C A, Inc",
+      "state": "KS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15073",
+      "name": "Pioneer Electric Coop, Inc - (KS)",
+      "state": "KS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13799",
+      "name": "Prairie Land Electric Coop Inc",
+      "state": "KS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16920",
+      "name": "Sedgwick County El Coop Assn Inc",
+      "state": "KS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "60839",
+      "name": "Southern Pioneer Electric Company",
+      "state": "KS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18962",
+      "name": "Twin Valley Electric Coop Inc",
+      "state": "KS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19820",
+      "name": "Victory Electric Coop Assn Inc",
+      "state": "KS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20510",
+      "name": "Wheatland Electric Coop, Inc",
+      "state": "KS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1708",
+      "name": "Big Sandy Rural Elec Coop Corp",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1886",
+      "name": "Blue Grass Energy Coop Corp",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2056",
+      "name": "City of Bowling Green - (KY)",
+      "state": "KY",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6708",
+      "name": "City of Frankfort - (KY)",
+      "state": "KY",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7270",
+      "name": "City of Glasgow - (KY)",
+      "state": "KY",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13138",
+      "name": "City of Murray - (KY)",
+      "state": "KY",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14268",
+      "name": "City of Owensboro - (KY)",
+      "state": "KY",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14371",
+      "name": "City of Paducah - (KY)",
+      "state": "KY",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "15386",
+      "name": "City of Princeton - (KY)",
+      "state": "KY",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3687",
+      "name": "Clark Energy Coop Inc - (KY)",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4622",
+      "name": "Cumberland Valley Electric, Inc.",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19446",
+      "name": "Duke Energy Kentucky",
+      "state": "KY",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "6194",
+      "name": "Farmers Rural Electric Coop Corp - (KY)",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6442",
+      "name": "Fleming-Mason Energy Coop Inc",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7558",
+      "name": "Grayson Rural Electric Coop Corp",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8449",
+      "name": "Henderson City Utility Comm",
+      "state": "KY",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9292",
+      "name": "Inter County Energy Coop Corp - (KY)",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9575",
+      "name": "Jackson Energy Coop Corp - (KY)",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9605",
+      "name": "Jackson Purchase Energy Corporation",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9964",
+      "name": "Kenergy Corp",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "22053",
+      "name": "Kentucky Power Co",
+      "state": "KY",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "10171",
+      "name": "Kentucky Utilities Co",
+      "state": "KY",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "11011",
+      "name": "Licking Valley Rural E C C",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11249",
+      "name": "Louisville Gas & Electric Co",
+      "state": "KY",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "12243",
+      "name": "Meade County Rural E C C",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13651",
+      "name": "Nolin Rural Electric Coop Corp",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14251",
+      "name": "Owen Electric Coop Inc",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14724",
+      "name": "Pennyrile Rural Electric Coop",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16587",
+      "name": "Salt River Electric Coop Corp",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17044",
+      "name": "Shelby Energy Coop, Inc - (KY)",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17564",
+      "name": "South Kentucky Rural E C C",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18498",
+      "name": "Taylor County Rural E C C",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19162",
+      "name": "Tri-County Elec Member Corp (TN)",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20130",
+      "name": "Warren Rural Elec Coop Corp",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20377",
+      "name": "West Kentucky Rural E C C",
+      "state": "KY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1458",
+      "name": "Beauregard Electric Coop, Inc",
+      "state": "LA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9096",
+      "name": "City of Lafayette - (LA)",
+      "state": "LA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16463",
+      "name": "City of Ruston - (LA)",
+      "state": "LA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3265",
+      "name": "Cleco Power LLC",
+      "state": "LA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "5202",
+      "name": "Dixie Electric Membership Corp - (LA)",
+      "state": "LA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "55936",
+      "name": "Entergy Gulf States - LA LLC",
+      "state": "LA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "11241",
+      "name": "Entergy Louisiana LLC",
+      "state": "LA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "13478",
+      "name": "Entergy New Orleans, LLC",
+      "state": "LA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "9682",
+      "name": "Jefferson Davis Elec Coop, Inc",
+      "state": "LA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13783",
+      "name": "Northeast Louisiana Power Coop Inc.",
+      "state": "LA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14424",
+      "name": "Panola-Harrison Elec Coop, Inc",
+      "state": "LA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15175",
+      "name": "Pointe Coupee Elec Member Corp",
+      "state": "LA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17565",
+      "name": "South Louisiana Elec Coop Assn",
+      "state": "LA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17684",
+      "name": "Southwest Louisiana E M C",
+      "state": "LA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17698",
+      "name": "Southwestern Electric Power Co",
+      "state": "LA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "21567",
+      "name": "Washington-St Tammany E C, Inc",
+      "state": "LA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3477",
+      "name": "City of Chicopee - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8796",
+      "name": "City of Hingham - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8774",
+      "name": "City of Holyoke - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11624",
+      "name": "City of Marblehead - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13839",
+      "name": "City of Norwood - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "18488",
+      "name": "City of Taunton - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20481",
+      "name": "City of Westfield - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6374",
+      "name": "Fitchburg Gas & Elec Light Co",
+      "state": "MA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "11804",
+      "name": "Massachusetts Electric Co",
+      "state": "MA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "13206",
+      "name": "Nantucket Electric Co",
+      "state": "MA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "54913",
+      "name": "NSTAR Electric Company",
+      "state": "MA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "902",
+      "name": "Town of Ashburnham - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "1523",
+      "name": "Town of Belmont - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "2144",
+      "name": "Town of Braintree - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "5480",
+      "name": "Town of Danvers",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7715",
+      "name": "Town of Groton - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8973",
+      "name": "Town of Hudson - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9442",
+      "name": "Town of Ipswich - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11586",
+      "name": "Town of Mansfield - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12296",
+      "name": "Town of Merrimac - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12473",
+      "name": "Town of Middleborough - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13679",
+      "name": "Town of North Attleborough - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "15748",
+      "name": "Town of Reading - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16377",
+      "name": "Town of Rowley - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17127",
+      "name": "Town of Shrewsbury - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17560",
+      "name": "Town of South Hadley - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "18087",
+      "name": "Town of Sterling - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20310",
+      "name": "Town of Wellesley - (MA)",
+      "state": "MA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20455",
+      "name": "Western Massachusetts Electric Company",
+      "state": "MA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "84",
+      "name": "A & N Electric Coop",
+      "state": "MD",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1167",
+      "name": "Baltimore Gas & Electric Co",
+      "state": "MD",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "3503",
+      "name": "Choptank Electric Cooperative, Inc",
+      "state": "MD",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5027",
+      "name": "Delmarva Power",
+      "state": "MD",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "5625",
+      "name": "Easton Utilities Comm",
+      "state": "MD",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "15270",
+      "name": "Potomac Electric Power Co",
+      "state": "MD",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "17637",
+      "name": "Southern Maryland Elec Coop Inc",
+      "state": "MD",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15263",
+      "name": "The Potomac Edison Company",
+      "state": "MD",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "1615",
+      "name": "Town of Berlin - (MD)",
+      "state": "MD",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3266",
+      "name": "Central Maine Power Co",
+      "state": "ME",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "5609",
+      "name": "Eastern Maine Electric Coop",
+      "state": "ME",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11522",
+      "name": "Maine Public Service Co",
+      "state": "ME",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "1179",
+      "name": "Versant Power",
+      "state": "ME",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "305",
+      "name": "Alger-Delta Coop Electric Assn",
+      "state": "MI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "392",
+      "name": "Alpena Power Co",
+      "state": "MI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "3436",
+      "name": "Cherryland Electric Coop Inc",
+      "state": "MI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1366",
+      "name": "City of Bay City - (MI)",
+      "state": "MI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "24558",
+      "name": "City of Escanaba",
+      "state": "MI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7483",
+      "name": "City of Grand Haven - (MI)",
+      "state": "MI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8723",
+      "name": "City of Holland - (MI)",
+      "state": "MI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10704",
+      "name": "City of Lansing - (MI)",
+      "state": "MI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11268",
+      "name": "City of Lowell - (MI)",
+      "state": "MI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11701",
+      "name": "City of Marquette - (MI)",
+      "state": "MI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13604",
+      "name": "City of Niles - (MI)",
+      "state": "MI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "18252",
+      "name": "City of Sturgis - (MI)",
+      "state": "MI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19125",
+      "name": "City of Traverse City - (MI)",
+      "state": "MI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "21158",
+      "name": "City of Zeeland - (MI)",
+      "state": "MI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3828",
+      "name": "Cloverland Electric Co-op",
+      "state": "MI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3915",
+      "name": "Coldwater Board of Public Util",
+      "state": "MI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4254",
+      "name": "Consumers Energy Co - (MI)",
+      "state": "MI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "5109",
+      "name": "DTE Electric Company",
+      "state": "MI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "38084",
+      "name": "Great Lakes Energy Coop",
+      "state": "MI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8631",
+      "name": "Hillsdale Board of Public Wks",
+      "state": "MI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9324",
+      "name": "Indiana Michigan Power Co",
+      "state": "MI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "12377",
+      "name": "Midwest Energy Cooperative - (MI)",
+      "state": "MI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13780",
+      "name": "Northern States Power Co",
+      "state": "MI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14156",
+      "name": "Ontonagon County R E A",
+      "state": "MI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15340",
+      "name": "Presque Isle Elec & Gas Coop",
+      "state": "MI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18895",
+      "name": "Thumb Electric Coop of Mich",
+      "state": "MI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19396",
+      "name": "Tri-County Electric Coop (MI)",
+      "state": "MI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "60631",
+      "name": "Upper Michigan Energy Resources Corp.",
+      "state": "MI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "19578",
+      "name": "Upper Peninsula Power Company",
+      "state": "MI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "20847",
+      "name": "Wisconsin Electric Power Co",
+      "state": "MI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "20860",
+      "name": "Wisconsin Public Service Corp",
+      "state": "MI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "21048",
+      "name": "Wyandotte Municipal Serv Comm - (MI)",
+      "state": "MI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "155",
+      "name": "Agralite Electric Coop",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12647",
+      "name": "ALLETE, Inc.",
+      "state": "MN",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "887",
+      "name": "Arrowhead Electric Coop, Inc",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1529",
+      "name": "Beltrami Electric Coop, Inc",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1884",
+      "name": "BENCO Electric Cooperative",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1883",
+      "name": "Blue Earth Light & Water",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "2138",
+      "name": "Brainerd Public Utilities",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "2316",
+      "name": "Brown County Rural Elec Assn",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "295",
+      "name": "City of Alexandria - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "691",
+      "name": "City of Anoka",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "1009",
+      "name": "City of Austin - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "1233",
+      "name": "City of Barnesville - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "1871",
+      "name": "City of Blooming Prairie - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "2485",
+      "name": "City of Buffalo - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3400",
+      "name": "City of Chaska - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "5111",
+      "name": "City of Detroit Lakes - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "5575",
+      "name": "City of East Grand Forks - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "5773",
+      "name": "City of Elk River",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10814",
+      "name": "City of Le Sueur - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11332",
+      "name": "City of Luverne - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11731",
+      "name": "City of Marshall - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12894",
+      "name": "City of Moorhead - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13730",
+      "name": "City of North St Paul - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14107",
+      "name": "City of Olivia - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14196",
+      "name": "City of Ortonville - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14246",
+      "name": "City of Owatonna - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17900",
+      "name": "City of Saint Peter",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16679",
+      "name": "City of Sauk Centre - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19947",
+      "name": "City of Wadena - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20134",
+      "name": "City of Warroad",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20136",
+      "name": "City of Waseca - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20806",
+      "name": "City of Windom",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "21013",
+      "name": "City of Worthington - (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3764",
+      "name": "Clearwater-Polk Elec Coop Inc",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "689",
+      "name": "Connexus Energy",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4346",
+      "name": "Cooperative L&P Assn Lake County",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4577",
+      "name": "Crow Wing Cooperative Power & Light Comp",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "25177",
+      "name": "Dakota Electric Association",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5574",
+      "name": "East Central Energy",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6258",
+      "name": "Federated Rural Electric Assn",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6782",
+      "name": "Freeborn Mower Electric Cooperative",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7460",
+      "name": "Goodhue County Coop Elec Assn",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7489",
+      "name": "Grand Rapids Public Util Comm",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8319",
+      "name": "Heartland Power Coop",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8543",
+      "name": "Hibbing Public Utilities Comm",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9130",
+      "name": "Hutchinson Utilities Comm",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9417",
+      "name": "Interstate Power and Light Co",
+      "state": "MN",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "9475",
+      "name": "Itasca-Mantrap Co-op Electrical Assn",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9991",
+      "name": "Kandiyohi Power Coop",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10697",
+      "name": "Lake Country Power",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10618",
+      "name": "Lake Region Electric Cooperative - (MN)",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11345",
+      "name": "Lyon-Lincoln Electric Cooperative, Inc.",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11910",
+      "name": "McLeod Cooperative Power Assn",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12227",
+      "name": "Meeker Coop Light & Power Assn",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19157",
+      "name": "MiEnergy Cooperative",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12546",
+      "name": "Mille Lacs Energy Cooperative",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "40304",
+      "name": "Minnesota Valley Coop L&P Assn",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12651",
+      "name": "Minnesota Valley Electric Coop",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13480",
+      "name": "New Prague Utilities Comm",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13488",
+      "name": "New Ulm Public Utilities Comm",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13684",
+      "name": "Nobles Cooperative Electric",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13700",
+      "name": "North Itasca Electric Coop Inc",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13731",
+      "name": "North Star Electric Coop, Inc",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13781",
+      "name": "Northern States Power Co - Minnesota",
+      "state": "MN",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14232",
+      "name": "Otter Tail Power Co",
+      "state": "MN",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14178",
+      "name": "P K M Electric Coop, Inc",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14468",
+      "name": "People's Cooperative Services",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15387",
+      "name": "Princeton Public Utils Comm",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "26934",
+      "name": "Red Lake Electric Coop, Inc",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "26939",
+      "name": "Red River Valley Coop Pwr Assn",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15750",
+      "name": "Redwood Electric Coop",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15845",
+      "name": "Renville-Sibley Coop Pwr Assn",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16181",
+      "name": "Rochester Public Utilities",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16284",
+      "name": "Roseau Electric Coop, Inc",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16368",
+      "name": "Runestone Electric Assn",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16971",
+      "name": "Shakopee Public Utilities Comm",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17267",
+      "name": "Sioux Valley SW Elec Coop",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17550",
+      "name": "South Central Electric Assn",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18019",
+      "name": "Stearns Cooperative Elec Assn",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18047",
+      "name": "Steele-Waseca Cooperative Electric",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "27422",
+      "name": "Todd-Wadena Electric Coop",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20639",
+      "name": "Wild Rice Electric Coop, Inc",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20737",
+      "name": "Willmar Municipal Utilities (MN)",
+      "state": "MN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20996",
+      "name": "Wright-Hennepin Coop Elec Assn",
+      "state": "MN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1301",
+      "name": "Barton County Elec Coop, Inc",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1775",
+      "name": "Black River Electric Coop - (MO)",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2001",
+      "name": "Boone Electric Coop",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3093",
+      "name": "Carroll Electric Coop Corp - (AR)",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3268",
+      "name": "Central Missouri Elec Coop Inc",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3486",
+      "name": "Chillicothe Municipal Utils",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3600",
+      "name": "Citizens Electric Corporation - (MO)",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3113",
+      "name": "City of Carthage - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4045",
+      "name": "City of Columbia - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6839",
+      "name": "City of Fulton - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8055",
+      "name": "City of Hannibal - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8199",
+      "name": "City of Harrisonville - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8493",
+      "name": "City of Hermann",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8567",
+      "name": "City of Higginsville - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9231",
+      "name": "City of Independence - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9603",
+      "name": "City of Jackson - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10370",
+      "name": "City of Kirkwood - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11460",
+      "name": "City of Macon - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11732",
+      "name": "City of Marshall - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12782",
+      "name": "City of Monett - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3634",
+      "name": "City of Nixa - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "15229",
+      "name": "City of Poplar Bluff - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16259",
+      "name": "City of Rolla - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17177",
+      "name": "City of Sikeston - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20224",
+      "name": "City of Waynesville - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17833",
+      "name": "City Utilities of Springfield - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3712",
+      "name": "Clay County Electric Coop Corp - (AR)",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4063",
+      "name": "Co-Mo Electric Coop Inc",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4237",
+      "name": "Consolidated Electric Coop",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4524",
+      "name": "Crawford Electric Coop, Inc",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4675",
+      "name": "Cuivre River Electric Coop Inc",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5860",
+      "name": "Empire District Electric Co",
+      "state": "MO",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "10000",
+      "name": "Evergy Metro",
+      "state": "MO",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "12698",
+      "name": "Evergy Missouri West",
+      "state": "MO",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "6181",
+      "name": "Farmers Electric Coop, Inc - (MO)",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7720",
+      "name": "Grundy Electric Coop, Inc",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9331",
+      "name": "Intercounty Electric Coop Assn - (MO)",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10603",
+      "name": "Laclede Electric Coop, Inc",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11463",
+      "name": "Macon Electric Coop",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13690",
+      "name": "North Central MO Elec Coop Inc",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14192",
+      "name": "Osage Valley Elec Coop Assn",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15138",
+      "name": "Platte-Clay Electric Coop, Inc",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16511",
+      "name": "Sac-Osage Electric Coop Inc",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16805",
+      "name": "SEMO Electric Cooperative",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "27238",
+      "name": "Southwest Electric Coop, Inc",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16751",
+      "name": "Three Rivers Electric Coop",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19150",
+      "name": "Trenton Municipal Utilities - (MO)",
+      "state": "MO",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19158",
+      "name": "Tri-County Electric Coop Assn (MO)",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19436",
+      "name": "Union Electric Co - (MO)",
+      "state": "MO",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "20318",
+      "name": "Webster Electric Coop",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20363",
+      "name": "West Central Electric Coop Inc - (MO)",
+      "state": "MO",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6641",
+      "name": "4-County Electric Power Assn",
+      "state": "MS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "276",
+      "name": "Alcorn County Elec Power Assn",
+      "state": "MS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2849",
+      "name": "Central Electric Power Assn - (MS)",
+      "state": "MS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4068",
+      "name": "City of Columbus - (MS)",
+      "state": "MS",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14275",
+      "name": "City of Oxford - (MS)",
+      "state": "MS",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "18006",
+      "name": "City of Starkville",
+      "state": "MS",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3841",
+      "name": "Coast Electric Power Assn - (MS)",
+      "state": "MS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "22815",
+      "name": "Delta Electric Power Assn",
+      "state": "MS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5175",
+      "name": "Dixie Electric Power Assn - (MS)",
+      "state": "MS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5578",
+      "name": "East Mississippi Elec Pwr Assn",
+      "state": "MS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12685",
+      "name": "Entergy Mississippi LLC",
+      "state": "MS",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "7651",
+      "name": "Greenwood Utilities Comm",
+      "state": "MS",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11519",
+      "name": "Magnolia Electric Power Assn",
+      "state": "MS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12686",
+      "name": "Mississippi Power Co",
+      "state": "MS",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "13227",
+      "name": "Natchez Trace Elec Power Assn",
+      "state": "MS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "40302",
+      "name": "North East Mississippi EPA",
+      "state": "MS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13735",
+      "name": "Northcentral Mississippi E P A",
+      "state": "MS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14563",
+      "name": "Pearl River Valley El Pwr Assn",
+      "state": "MS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17252",
+      "name": "Singing River Elec Cooperative",
+      "state": "MS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17647",
+      "name": "Southern Pine Electric Cooperative",
+      "state": "MS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17683",
+      "name": "Southwest Mississippi E P A",
+      "state": "MS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18447",
+      "name": "Tallahatchie Valley E P A",
+      "state": "MS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18961",
+      "name": "Twin County Electric Pwr Assn",
+      "state": "MS",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19545",
+      "name": "Black Hills Power, Inc.",
+      "state": "MT",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "6169",
+      "name": "Fall River Rural Elec Coop Inc",
+      "state": "MT",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "21513",
+      "name": "Fergus Electric Coop, Inc",
+      "state": "MT",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6395",
+      "name": "Flathead Electric Coop Inc",
+      "state": "MT",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11022",
+      "name": "Lincoln Electric Coop, Inc",
+      "state": "MT",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11272",
+      "name": "Lower Yellowstone R E A, Inc",
+      "state": "MT",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12463",
+      "name": "Mid-Yellowstone Elec Coop, Inc",
+      "state": "MT",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12692",
+      "name": "Missoula Electric Coop, Inc",
+      "state": "MT",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12199",
+      "name": "Montana-Dakota Utilities Co",
+      "state": "MT",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "13758",
+      "name": "Northern Lights, Inc",
+      "state": "MT",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12825",
+      "name": "NorthWestern Energy LLC - (MT)",
+      "state": "MT",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "26916",
+      "name": "Ravalli County Elec Coop, Inc",
+      "state": "MT",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17593",
+      "name": "Southeast Electric Coop, Inc",
+      "state": "MT",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18401",
+      "name": "Sun River Electric Coop, Inc",
+      "state": "MT",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "240",
+      "name": "Albemarle Electric Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1889",
+      "name": "Blue Ridge Elec Member Corp - (NC)",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "24889",
+      "name": "Brunswick Electric Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2982",
+      "name": "Cape Hatteras Elec Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3107",
+      "name": "Carteret-Craven El Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3250",
+      "name": "Central Electric Membership Corp. - (NC)",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "232",
+      "name": "City of Albemarle - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4150",
+      "name": "City of Concord - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7027",
+      "name": "City of Gastonia - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10345",
+      "name": "City of Kinston - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10966",
+      "name": "City of Lexington - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11318",
+      "name": "City of Lumberton - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12801",
+      "name": "City of Monroe - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12944",
+      "name": "City of Morganton - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13416",
+      "name": "City of New Bern - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13561",
+      "name": "City of Newton - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16226",
+      "name": "City of Rocky Mount - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17037",
+      "name": "City of Shelby - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "18022",
+      "name": "City of Statesville - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20785",
+      "name": "City of Wilson - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "5416",
+      "name": "Duke Energy Carolinas, LLC",
+      "state": "NC",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "3046",
+      "name": "Duke Energy Progress - (NC)",
+      "state": "NC",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "5656",
+      "name": "Edgecombe-Martin County E M C",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "21632",
+      "name": "EnergyUnited Elec Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6235",
+      "name": "Fayetteville Public Works Commission",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6640",
+      "name": "Four County Elec Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6784",
+      "name": "French Broad Elec Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7639",
+      "name": "Greenville Utilities Comm",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7978",
+      "name": "Halifax Electric Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8333",
+      "name": "Haywood Electric Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9837",
+      "name": "Jones-Onslow Elec Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11291",
+      "name": "Lumbee River Elec Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13027",
+      "name": "Mountain Electric Coop, Inc",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13482",
+      "name": "New River Light & Power Co",
+      "state": "NC",
+      "entityType": "State"
+    },
+    {
+      "id": "14717",
+      "name": "Pee Dee Electric Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15023",
+      "name": "Piedmont Electric Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15671",
+      "name": "Randolph Electric Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16101",
+      "name": "Roanoke Electric Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16496",
+      "name": "Rutherford Elec Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17572",
+      "name": "South River Elec Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18339",
+      "name": "Surry-Yadkin Elec Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19108",
+      "name": "Tideland Electric Member Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "719",
+      "name": "Town of Apex- (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "1571",
+      "name": "Town of Benson - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4365",
+      "name": "Town of Cornelius - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7496",
+      "name": "Town of Granite Falls - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8571",
+      "name": "Town of High Point",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9087",
+      "name": "Town of Huntersville - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19974",
+      "name": "Town of Wake Forest - (NC)",
+      "state": "NC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "18957",
+      "name": "Tri-County Elec Member Corp (NC)",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19435",
+      "name": "Union Electric Membership Corp - (NC)",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19876",
+      "name": "Virginia Electric & Power Co",
+      "state": "NC",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "19981",
+      "name": "Wake Electric Membership Corp",
+      "state": "NC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2985",
+      "name": "Capital Electric Coop, Inc",
+      "state": "ND",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "24949",
+      "name": "Cass County Elec Coop Inc",
+      "state": "ND",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4717",
+      "name": "Dakota Valley Elec Coop Inc",
+      "state": "ND",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11272",
+      "name": "Lower Yellowstone R E A, Inc",
+      "state": "ND",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12087",
+      "name": "McKenzie Electric Coop Inc",
+      "state": "ND",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12199",
+      "name": "Montana-Dakota Utilities Co",
+      "state": "ND",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "20413",
+      "name": "Mountrail-Williams Elec Coop",
+      "state": "ND",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12301",
+      "name": "Nodak Electric Coop Inc",
+      "state": "ND",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13694",
+      "name": "North Central Elec Coop, Inc",
+      "state": "ND",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13196",
+      "name": "Northern Plains Electric Coop",
+      "state": "ND",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13781",
+      "name": "Northern States Power Co - Minnesota",
+      "state": "ND",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14232",
+      "name": "Otter Tail Power Co",
+      "state": "ND",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "19790",
+      "name": "Verendrye Electric Coop Inc",
+      "state": "ND",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "993",
+      "name": "Auburn Board of Public Works",
+      "state": "NE",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6779",
+      "name": "City of Fremont - (NE)",
+      "state": "NE",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "40606",
+      "name": "City of Grand Island - (NE)",
+      "state": "NE",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8245",
+      "name": "City of Hastings - (NE)",
+      "state": "NE",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4373",
+      "name": "Cornhusker Public Power Dist",
+      "state": "NE",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "4671",
+      "name": "Custer Public Power District",
+      "state": "NE",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "4911",
+      "name": "Dawson Power District",
+      "state": "NE",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "5780",
+      "name": "Elkhorn Rural Public Pwr Dist",
+      "state": "NE",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "11018",
+      "name": "Lincoln Electric System",
+      "state": "NE",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11251",
+      "name": "Loup River Public Power Dist",
+      "state": "NE",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "12539",
+      "name": "Midwest Electric Member Corp - (NE)",
+      "state": "NE",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13337",
+      "name": "Nebraska Public Power District",
+      "state": "NE",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "13664",
+      "name": "Norris Public Power District",
+      "state": "NE",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "13698",
+      "name": "North Central Public Pwr Dist",
+      "state": "NE",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "13805",
+      "name": "Northwest Rural Pub Pwr Dist",
+      "state": "NE",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "14127",
+      "name": "Omaha Public Power District",
+      "state": "NE",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "21111",
+      "name": "Perennial Public Power Dist",
+      "state": "NE",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "15188",
+      "name": "Polk County Rural Pub Pwr Dist",
+      "state": "NE",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "17548",
+      "name": "South Central Public Pwr Dist",
+      "state": "NE",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "17692",
+      "name": "Southwest Public Power Dist",
+      "state": "NE",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "17979",
+      "name": "Stanton County Public Pwr Dist",
+      "state": "NE",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "20456",
+      "name": "Twin Valleys Public Power Dist",
+      "state": "NE",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "21079",
+      "name": "Wyrulec Company",
+      "state": "NE",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "26510",
+      "name": "Liberty Utilities (Granite State Electri",
+      "state": "NH",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "13441",
+      "name": "New Hampshire Elec Coop Inc",
+      "state": "NH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15472",
+      "name": "Public Service Co of NH",
+      "state": "NH",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "24590",
+      "name": "Unitil Energy Systems",
+      "state": "NH",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "963",
+      "name": "Atlantic City Electric Co",
+      "state": "NJ",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "11476",
+      "name": "Borough of Madison - (NJ)",
+      "state": "NJ",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9726",
+      "name": "Jersey Central Power & Lt Co",
+      "state": "NJ",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "15477",
+      "name": "Public Service Elec & Gas Co",
+      "state": "NJ",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "16213",
+      "name": "Rockland Electric Co",
+      "state": "NJ",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "3273",
+      "name": "Central New Mexico El Coop, Inc",
+      "state": "NM",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3287",
+      "name": "Central Valley Elec Coop, Inc",
+      "state": "NM",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6204",
+      "name": "City of Farmington - (NM)",
+      "state": "NM",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4265",
+      "name": "Continental Divide El Coop Inc",
+      "state": "NM",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5701",
+      "name": "El Paso Electric Co",
+      "state": "NM",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "6198",
+      "name": "Farmers Electric Coop, Inc - (NM)",
+      "state": "NM",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9699",
+      "name": "Jemez Mountains Elec Coop, Inc",
+      "state": "NM",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10378",
+      "name": "Kit Carson Electric Coop, Inc",
+      "state": "NM",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10817",
+      "name": "Lea County Electric Coop, Inc - (NM)",
+      "state": "NM",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11204",
+      "name": "Los Alamos County - (NM)",
+      "state": "NM",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12901",
+      "name": "Mora-San Miguel Elec Coop",
+      "state": "NM",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13314",
+      "name": "Navajo Tribal Utility Authority",
+      "state": "NM",
+      "entityType": "State"
+    },
+    {
+      "id": "13777",
+      "name": "Northern Rio Arriba E Coop Inc",
+      "state": "NM",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15473",
+      "name": "Public Service Co of NM",
+      "state": "NM",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "16057",
+      "name": "Rio Grande Electric Coop, Inc",
+      "state": "NM",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "23326",
+      "name": "Sierra Electric Coop, Inc",
+      "state": "NM",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17718",
+      "name": "Southwestern Public Service Co",
+      "state": "NM",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "2008",
+      "name": "City of Boulder City - (NV)",
+      "state": "NV",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13073",
+      "name": "Mt Wheeler Power, Inc",
+      "state": "NV",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13407",
+      "name": "Nevada Power Co",
+      "state": "NV",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14245",
+      "name": "Overton Power District No 5",
+      "state": "NV",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "17166",
+      "name": "Sierra Pacific Power Co",
+      "state": "NV",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "19840",
+      "name": "Valley Electric Assn, Inc",
+      "state": "NV",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3249",
+      "name": "Central Hudson Gas & Elec Corp",
+      "state": "NY",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "4226",
+      "name": "Consolidated Edison Co-NY Inc",
+      "state": "NY",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "5021",
+      "name": "Delaware County Elec Coop Inc",
+      "state": "NY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9645",
+      "name": "Jamestown Board of Public Util",
+      "state": "NY",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11171",
+      "name": "Long Island Power Authority",
+      "state": "NY",
+      "entityType": "State"
+    },
+    {
+      "id": "13511",
+      "name": "New York State Elec & Gas Corp",
+      "state": "NY",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "13573",
+      "name": "Niagara Mohawk Power Corp.",
+      "state": "NY",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14154",
+      "name": "Orange & Rockland Utils Inc",
+      "state": "NY",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "16183",
+      "name": "Rochester Gas & Electric Corp",
+      "state": "NY",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "18102",
+      "name": "Steuben Rural Elec Coop, Inc",
+      "state": "NY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11811",
+      "name": "Town of Massena - (NY)",
+      "state": "NY",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "5930",
+      "name": "Village of Fairport - (NY)",
+      "state": "NY",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6775",
+      "name": "Village of Freeport - (NY)",
+      "state": "NY",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7624",
+      "name": "Village of Greene - (NY)",
+      "state": "NY",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16217",
+      "name": "Village of Rockville Centre - (NY)",
+      "state": "NY",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "2502",
+      "name": "Buckeye Rural Elec Coop, Inc",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2651",
+      "name": "Butler Rural Electric Coop Inc - (OH)",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3076",
+      "name": "Carroll Electric Coop, Inc - (OH)",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2054",
+      "name": "City of Bowling Green - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "2439",
+      "name": "City of Bryan - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3762",
+      "name": "City of Cleveland - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4065",
+      "name": "City of Columbus - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4683",
+      "name": "City of Cuyahoga Falls - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "5336",
+      "name": "City of Dover - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7977",
+      "name": "City of Hamilton - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8972",
+      "name": "City of Hudson - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13209",
+      "name": "City of Napoleon - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13563",
+      "name": "City of Newton Falls - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14194",
+      "name": "City of Orrville - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14381",
+      "name": "City of Painesville - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "15095",
+      "name": "City of Piqua - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "18941",
+      "name": "City of Tipp City - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19951",
+      "name": "City of Wadsworth - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20077",
+      "name": "City of Wapakoneta - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20477",
+      "name": "City of Westerville - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3755",
+      "name": "Cleveland Electric Illum Co",
+      "state": "OH",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "12990",
+      "name": "Consolidated Cooperative",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4796",
+      "name": "Darke Rural Electric Coop, Inc",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4922",
+      "name": "Dayton Power & Light Co",
+      "state": "OH",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "3542",
+      "name": "Duke Energy Ohio Inc",
+      "state": "OH",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "6335",
+      "name": "Firelands Electric Coop, Inc",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6804",
+      "name": "Frontier Power Company",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7891",
+      "name": "Guernsey-Muskingum El Coop Inc",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8034",
+      "name": "Hancock-Wood Electric Coop Inc",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8761",
+      "name": "Holmes-Wayne Electric Coop Inc",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10668",
+      "name": "Licking Rural Electric Inc",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11203",
+      "name": "Logan County Coop Power & Light",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11200",
+      "name": "Lorain-Medina R E C, Inc",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "36189",
+      "name": "Mid-Ohio Energy Coop, Inc",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12515",
+      "name": "Midwest Electric, Inc - (OH)",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12377",
+      "name": "Midwest Energy Cooperative - (MI)",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13693",
+      "name": "North Central Elec Coop, Inc - (OH)",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13704",
+      "name": "North Western Elec Coop, Inc",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13998",
+      "name": "Ohio Edison Co",
+      "state": "OH",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14006",
+      "name": "Ohio Power Co",
+      "state": "OH",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14599",
+      "name": "Paulding-Putman Elec Coop, Inc",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15054",
+      "name": "Pioneer Rural Elec Coop, Inc - (OH)",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18085",
+      "name": "South Central Power Company",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18997",
+      "name": "The Toledo Edison Co",
+      "state": "OH",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "19501",
+      "name": "Union Rural Electric Coop, Inc",
+      "state": "OH",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2205",
+      "name": "Village of Brewster - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9572",
+      "name": "Village of Jackson Center - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12660",
+      "name": "Village of Minster - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13932",
+      "name": "Village of Oak Harbor - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19805",
+      "name": "Village of Versailles - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "21101",
+      "name": "Village of Yellow Springs - (OH)",
+      "state": "OH",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "296",
+      "name": "Alfalfa Electric Coop, Inc",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "817",
+      "name": "Arkansas Valley Elec Coop Corp",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3390",
+      "name": "Caddo Electric Coop, Inc",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2911",
+      "name": "Canadian Valley Elec Coop, Inc",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3226",
+      "name": "Central Rural Electric Cooperative, Inc",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3527",
+      "name": "Choctaw Electric Coop Inc",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3478",
+      "name": "Cimarron Electric Coop",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3647",
+      "name": "City of Claremore",
+      "state": "OK",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "5429",
+      "name": "City of Duncan - (OK)",
+      "state": "OK",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "5661",
+      "name": "City of Edmond - (OK)",
+      "state": "OK",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11691",
+      "name": "City of Marlow - (OK)",
+      "state": "OK",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13966",
+      "name": "City of Olustee",
+      "state": "OK",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "15202",
+      "name": "City of Ponca City - (OK)",
+      "state": "OK",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "15515",
+      "name": "City of Purcell - (OK)",
+      "state": "OK",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "60482",
+      "name": "CKenergy Electric Cooperative",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4296",
+      "name": "Cookson Hills Elec Coop, Inc",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4401",
+      "name": "Cotton Electric Coop, Inc",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5598",
+      "name": "East Central Oklahoma Elec Coop Inc",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5860",
+      "name": "Empire District Electric Co",
+      "state": "OK",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "7490",
+      "name": "Grand River Dam Authority",
+      "state": "OK",
+      "entityType": "State"
+    },
+    {
+      "id": "9246",
+      "name": "Indian Electric Coop, Inc",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10170",
+      "name": "Kiamichi Electric Coop, Inc",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10599",
+      "name": "Lake Region Electric Coop, Inc - (OK)",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13838",
+      "name": "Northfork Electric Coop, Inc",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14062",
+      "name": "Oklahoma Electric Coop Inc",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14063",
+      "name": "Oklahoma Gas & Electric Co",
+      "state": "OK",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14289",
+      "name": "Ozarks Electric Coop Corp - (AR)",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14775",
+      "name": "People's Electric Cooperative",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15311",
+      "name": "Prague Public Works Authority",
+      "state": "OK",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "15474",
+      "name": "Public Service Co of Oklahoma",
+      "state": "OK",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "16382",
+      "name": "Rural Electric Coop, Inc - (OK)",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17603",
+      "name": "Southeastern Electric Coop Inc - (OK)",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18125",
+      "name": "Stillwater Utilities Authority",
+      "state": "OK",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19160",
+      "name": "Tri-County Electric Coop, Inc (OK)",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19785",
+      "name": "Verdigris Valley Elec Coop Inc",
+      "state": "OK",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1736",
+      "name": "Blachly-Lane County Coop El Assn",
+      "state": "OR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2955",
+      "name": "Canby Utility Board",
+      "state": "OR",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3264",
+      "name": "Central Lincoln People's Ut Dt",
+      "state": "OR",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "6022",
+      "name": "City of Eugene - (OR)",
+      "state": "OR",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6582",
+      "name": "City of Forest Grove",
+      "state": "OR",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8515",
+      "name": "City of Hermiston",
+      "state": "OR",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12187",
+      "name": "City of McMinnville - (OR)",
+      "state": "OR",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17839",
+      "name": "City of Springfield - (OR)",
+      "state": "OR",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "28541",
+      "name": "Clatskanie Peoples Util Dist",
+      "state": "OR",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "4008",
+      "name": "Columbia Power Coop Assn Inc",
+      "state": "OR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "40438",
+      "name": "Columbia River Peoples Ut Dist",
+      "state": "OR",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "4743",
+      "name": "Consumers Power, Inc",
+      "state": "OR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4317",
+      "name": "Coos-Curry Electric Coop, Inc",
+      "state": "OR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "40437",
+      "name": "Emerald People's Utility Dist",
+      "state": "OR",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "9191",
+      "name": "Idaho Power Co",
+      "state": "OR",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "10681",
+      "name": "Lane Electric Coop Inc",
+      "state": "OR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12439",
+      "name": "Midstate Electric Coop, Inc",
+      "state": "OR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13788",
+      "name": "Northern Wasco County PUD - (OR)",
+      "state": "OR",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "14109",
+      "name": "Oregon Trail El Cons Coop, Inc",
+      "state": "OR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14354",
+      "name": "PacifiCorp",
+      "state": "OR",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "15248",
+      "name": "Portland General Electric Co",
+      "state": "OR",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "16555",
+      "name": "Salem Electric - (OR)",
+      "state": "OR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19325",
+      "name": "Umatilla Electric Coop Assn",
+      "state": "OR",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3329",
+      "name": "Borough of Chambersburg - (PA)",
+      "state": "PA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "5935",
+      "name": "Borough of Ephrata - (PA)",
+      "state": "PA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14792",
+      "name": "Borough of Perkasie - (PA)",
+      "state": "PA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3597",
+      "name": "Citizens Electric Co - (PA)",
+      "state": "PA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "5487",
+      "name": "Duquesne Light Co",
+      "state": "PA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "66101",
+      "name": "FirstEnergy Pennsylvania Electric Co",
+      "state": "PA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "12390",
+      "name": "Metropolitan Edison Co",
+      "state": "PA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14940",
+      "name": "PECO Energy Co",
+      "state": "PA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14711",
+      "name": "Pennsylvania Electric Co",
+      "state": "PA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14716",
+      "name": "Pennsylvania Power Co",
+      "state": "PA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "15045",
+      "name": "Pike County Light & Power Co",
+      "state": "PA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14715",
+      "name": "PPL Electric Utilities Corp",
+      "state": "PA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "40291",
+      "name": "Sullivan County R E C, Inc - (PA)",
+      "state": "PA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19390",
+      "name": "UGI Utilities, Inc",
+      "state": "PA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "20334",
+      "name": "Wellsborough Electric Co",
+      "state": "PA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "20387",
+      "name": "West Penn Power Company",
+      "state": "PA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "13214",
+      "name": "The Narragansett Electric Co",
+      "state": "RI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "162",
+      "name": "Aiken Electric Coop Inc",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1170",
+      "name": "Bamberg Board of Public Works",
+      "state": "SC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "1613",
+      "name": "Berkeley Electric Coop Inc",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1763",
+      "name": "Black River Electric Coop, Inc - (SC)",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1890",
+      "name": "Blue Ridge Electric Coop Inc - (SC)",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2212",
+      "name": "Broad River Electric Coop, Inc",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6894",
+      "name": "City of Gaffney - (SC)",
+      "state": "SC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "21526",
+      "name": "City of Laurens - (SC)",
+      "state": "SC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14164",
+      "name": "City of Orangeburg - (SC)",
+      "state": "SC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16195",
+      "name": "City of Rock Hill - (SC)",
+      "state": "SC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16921",
+      "name": "City of Seneca - (SC)",
+      "state": "SC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3804",
+      "name": "Clinton Combined Utility Sys",
+      "state": "SC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3844",
+      "name": "Coastal Electric Coop, Inc",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17539",
+      "name": "Dominion Energy South Carolina, Inc",
+      "state": "SC",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "5416",
+      "name": "Duke Energy Carolinas, LLC",
+      "state": "SC",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "3046",
+      "name": "Duke Energy Progress - (NC)",
+      "state": "SC",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "6709",
+      "name": "Easley Combined Utility System",
+      "state": "SC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "5644",
+      "name": "Edisto Electric Coop, Inc",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5929",
+      "name": "Fairfield Electric Coop, Inc",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7646",
+      "name": "Greenwood CPW",
+      "state": "SC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7654",
+      "name": "Greer Commission of Public Wks",
+      "state": "SC",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8786",
+      "name": "Horry Electric Coop Inc",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10768",
+      "name": "Laurens Electric Coop, Inc",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11355",
+      "name": "Lynches River Elec Coop, Inc",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11693",
+      "name": "Marlboro Electric Coop, Inc",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12462",
+      "name": "Mid-Carolina Electric Coop Inc",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "66073",
+      "name": "MPD Electric Cooperative",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13524",
+      "name": "Newberry Electric Coop, Inc",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14398",
+      "name": "Palmetto Electric Coop Inc",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14557",
+      "name": "Pee Dee Electric Coop, Inc",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16606",
+      "name": "Santee Electric Coop, Inc",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17543",
+      "name": "South Carolina Public Service Authority",
+      "state": "SC",
+      "entityType": "State"
+    },
+    {
+      "id": "14175",
+      "name": "Tri-County Electric Coop, Inc (SC)",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "21002",
+      "name": "York Electric Coop Inc",
+      "state": "SC",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1769",
+      "name": "Black Hills Electric Coop, Inc",
+      "state": "SD",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19545",
+      "name": "Black Hills Power, Inc.",
+      "state": "SD",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "1898",
+      "name": "Bon Homme Yankton El Assn, Inc",
+      "state": "SD",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2655",
+      "name": "Butte Electric Coop, Inc",
+      "state": "SD",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2285",
+      "name": "City of Brookings - (SD)",
+      "state": "SD",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6272",
+      "name": "FEM Electric Assn, Inc",
+      "state": "SD",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7870",
+      "name": "H-D Electric Coop Inc",
+      "state": "SD",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10558",
+      "name": "LaCreek Electric Assn, Inc",
+      "state": "SD",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12341",
+      "name": "MidAmerican Energy Co",
+      "state": "SD",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "12199",
+      "name": "Montana-Dakota Utilities Co",
+      "state": "SD",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "13750",
+      "name": "Northern Electric Coop, Inc",
+      "state": "SD",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13781",
+      "name": "Northern States Power Co - Minnesota",
+      "state": "SD",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "13809",
+      "name": "NorthWestern Energy - (SD)",
+      "state": "SD",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14232",
+      "name": "Otter Tail Power Co",
+      "state": "SD",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "16286",
+      "name": "Rosebud Electric Coop Inc",
+      "state": "SD",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17267",
+      "name": "Sioux Valley SW Elec Coop",
+      "state": "SD",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19293",
+      "name": "Southeastern Electric Coop Inc - (SD)",
+      "state": "SD",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19493",
+      "name": "Union County Electric Coop Inc",
+      "state": "SD",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20187",
+      "name": "Watertown Municipal Utilities",
+      "state": "SD",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20368",
+      "name": "West Central Electric Coop Inc - (SD)",
+      "state": "SD",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20401",
+      "name": "West River Electric Assn Inc",
+      "state": "SD",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20422",
+      "name": "Whetstone Valley Elec Coop Inc",
+      "state": "SD",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "727",
+      "name": "Appalachian Electric Coop",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1936",
+      "name": "Bolivar Energy Authority",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "2960",
+      "name": "Caney Fork Electric Coop, Inc",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "40166",
+      "name": "Chickasaw Electric Coop, Inc",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2247",
+      "name": "City of Bristol - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3408",
+      "name": "City of Chattanooga - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3704",
+      "name": "City of Clarksville - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3758",
+      "name": "City of Cleveland - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3812",
+      "name": "City of Clinton - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "5148",
+      "name": "City of Dickson",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "5509",
+      "name": "City of Dyersburg",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6234",
+      "name": "City of Fayetteville",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6923",
+      "name": "City of Gallatin - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7625",
+      "name": "City of Greeneville - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8147",
+      "name": "City of Harriman - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9612",
+      "name": "City of Jackson - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10579",
+      "name": "City of LaFollette",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10906",
+      "name": "City of Lenoir - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10960",
+      "name": "City of Lewisburg - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12293",
+      "name": "City of Memphis - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12532",
+      "name": "City of Milan - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12988",
+      "name": "City of Morristown - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13119",
+      "name": "City of Murfreesboro",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14455",
+      "name": "City of Paris - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "15507",
+      "name": "City of Pulaski - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "27222",
+      "name": "City of Ripley - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16223",
+      "name": "City of Rockwood - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17047",
+      "name": "City of Shelbyville - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20793",
+      "name": "City of Winchester - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3855",
+      "name": "Columbia Power System - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4624",
+      "name": "Cumberland Elec Member Corp",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5399",
+      "name": "Duck River Elec Member Corp",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "40236",
+      "name": "Forked Deer Electric Coop, Inc",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6608",
+      "name": "Fort Loudoun Electric Coop",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7174",
+      "name": "Gibson Electric Members Corp",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8764",
+      "name": "Holston Electric Coop, Inc",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9777",
+      "name": "Johnson City - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10331",
+      "name": "Kingsport Power Co",
+      "state": "TN",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "10421",
+      "name": "Knoxville Utilities Board",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11789",
+      "name": "Maryville Utilities",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12186",
+      "name": "McMinnville Electric System",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12330",
+      "name": "Meriwether Lewis Electric Coop",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12470",
+      "name": "Middle Tennessee E M C",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13027",
+      "name": "Mountain Electric Coop, Inc",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13216",
+      "name": "Nashville Electric Service",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "15016",
+      "name": "Pickwick Electric Coop",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15141",
+      "name": "Plateau Electric Cooperative",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15293",
+      "name": "Powell Valley Electric Coop",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16930",
+      "name": "Sequachee Valley Electric Coop",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16949",
+      "name": "Sevier County Electric System",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17694",
+      "name": "Southwest Tennessee E M C",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18643",
+      "name": "Tennessee Valley Electric Coop",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5961",
+      "name": "Town of Erwin - (TN)",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19162",
+      "name": "Tri-County Elec Member Corp (TN)",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19266",
+      "name": "Tullahoma Board-Public Utils",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19574",
+      "name": "Upper Cumberland E M C",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19898",
+      "name": "Volunteer Electric Coop",
+      "state": "TN",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20228",
+      "name": "Weakley County Mun Elec Sys",
+      "state": "TN",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3278",
+      "name": "AEP Texas Central Company",
+      "state": "TX",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "20404",
+      "name": "AEP Texas North Company",
+      "state": "TX",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "65353",
+      "name": "Arrow Energy TX LLC",
+      "state": "TX",
+      "entityType": "Retail Power Marketer"
+    },
+    {
+      "id": "1015",
+      "name": "Austin Energy",
+      "state": "TX",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "1175",
+      "name": "Bandera Electric Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1273",
+      "name": "Bartlett Electric Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1591",
+      "name": "Big Country Electric Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1892",
+      "name": "Bluebonnet Electric Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2049",
+      "name": "Bowie-Cass Electric Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2409",
+      "name": "Brownsville Public Utilities Board",
+      "state": "TX",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8901",
+      "name": "CenterPoint Energy",
+      "state": "TX",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "3282",
+      "name": "Central Texas Elec Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3470",
+      "name": "Cherokee County Elec Coop Assn - (TX)",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2442",
+      "name": "City of Bryan - (TX)",
+      "state": "TX",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3940",
+      "name": "City of College Station - (TX)",
+      "state": "TX",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "5063",
+      "name": "City of Denton - (TX)",
+      "state": "TX",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6427",
+      "name": "City of Floresville",
+      "state": "TX",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6958",
+      "name": "City of Garland - (TX)",
+      "state": "TX",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7129",
+      "name": "City of Georgetown - (TX)",
+      "state": "TX",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7634",
+      "name": "City of Greenville - (TX)",
+      "state": "TX",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11292",
+      "name": "City of Lubbock - (TX)",
+      "state": "TX",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13025",
+      "name": "City of Moulton - (TX)",
+      "state": "TX",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13418",
+      "name": "City of New Braunfels - (TX)",
+      "state": "TX",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16604",
+      "name": "City of San Antonio - (TX)",
+      "state": "TX",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "28978",
+      "name": "City of San Marcos - (TX)",
+      "state": "TX",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16900",
+      "name": "City of Seguin - (TX)",
+      "state": "TX",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4146",
+      "name": "Concho Valley Elec Coop Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4262",
+      "name": "Cooke County Elec Coop Assn",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4939",
+      "name": "Deaf Smith Electric Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4975",
+      "name": "Deep East Texas Elec Coop Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5078",
+      "name": "Denton County Elec Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5701",
+      "name": "El Paso Electric Co",
+      "state": "TX",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "55937",
+      "name": "Entergy Texas Inc.",
+      "state": "TX",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "6173",
+      "name": "Fannin County Electric Coop",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6182",
+      "name": "Farmers Electric Coop, Inc - (TX)",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7559",
+      "name": "Grayson-Collin Elec Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "7752",
+      "name": "Guadalupe Valley Elec Coop Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "55982",
+      "name": "Heart of Texas Electric Coop",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8620",
+      "name": "HILCO Electric Cooperative, Inc.",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8898",
+      "name": "Houston County Elec Coop Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "9668",
+      "name": "Jasper-Newton Elec Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10009",
+      "name": "Karnes Electric Coop Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "28604",
+      "name": "Kerrville Public Utility Board",
+      "state": "TX",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10649",
+      "name": "Lamar County Elec Coop Assn",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10625",
+      "name": "Lamb County Electric Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10817",
+      "name": "Lea County Electric Coop, Inc - (NM)",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11364",
+      "name": "Lyntegar Electric Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11501",
+      "name": "Magic Valley Electric Coop Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12268",
+      "name": "Medina Electric Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12452",
+      "name": "Mid-South Electric Coop Assn",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16146",
+      "name": "Navasota Valley Elec Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13757",
+      "name": "North Plains Electric Coop Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13830",
+      "name": "Nueces Electric Cooperative",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "44372",
+      "name": "Oncor Electric Delivery Company LLC",
+      "state": "TX",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14424",
+      "name": "Panola-Harrison Elec Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14626",
+      "name": "Pedernales Electric Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16057",
+      "name": "Rio Grande Electric Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16063",
+      "name": "Rita Blanca Electric Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16461",
+      "name": "Rusk County Electric Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16613",
+      "name": "Sam Houston Electric Coop Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16638",
+      "name": "San Bernard Electric Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16627",
+      "name": "San Patricio Electric Coop Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17008",
+      "name": "Sharyland Utilities LP",
+      "state": "TX",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "17698",
+      "name": "Southwestern Electric Power Co",
+      "state": "TX",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "17718",
+      "name": "Southwestern Public Service Co",
+      "state": "TX",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "18199",
+      "name": "Swisher Electric Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "27369",
+      "name": "Taylor Electric Coop Inc - (TX)",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "40051",
+      "name": "Texas-New Mexico Power Co",
+      "state": "TX",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "19159",
+      "name": "Tri-County Electric Coop, Inc (TX)",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18976",
+      "name": "Trinity Valley Elec Coop Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19490",
+      "name": "United Electric Coop Service Inc - (TX)",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19579",
+      "name": "Upshur Rural Elec Coop Corp",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19806",
+      "name": "Victoria Electric Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20230",
+      "name": "Weatherford Mun Utility System",
+      "state": "TX",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20948",
+      "name": "Wise Electric Coop Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "20927",
+      "name": "Wood County Electric Coop, Inc",
+      "state": "TX",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "11135",
+      "name": "City of Logan - (UT)",
+      "state": "UT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13137",
+      "name": "City of Murray - (UT)",
+      "state": "UT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17845",
+      "name": "City of Springville - (UT)",
+      "state": "UT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17874",
+      "name": "City of St George - (UT)",
+      "state": "UT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20135",
+      "name": "City of Washington - (UT)",
+      "state": "UT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "40165",
+      "name": "Dixie Escalante R E A, Inc",
+      "state": "UT",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6957",
+      "name": "Garkane Energy Coop, Inc",
+      "state": "UT",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8366",
+      "name": "Heber Light & Power Company",
+      "state": "UT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9128",
+      "name": "Hurricane City Power",
+      "state": "UT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10063",
+      "name": "Kaysville City Corporation",
+      "state": "UT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "10879",
+      "name": "Lehi City Corporation",
+      "state": "UT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12866",
+      "name": "Moon Lake Electric Assn Inc",
+      "state": "UT",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13314",
+      "name": "Navajo Tribal Utility Authority",
+      "state": "UT",
+      "entityType": "State"
+    },
+    {
+      "id": "14354",
+      "name": "PacifiCorp",
+      "state": "UT",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "15444",
+      "name": "Provo City Corp",
+      "state": "UT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "18206",
+      "name": "Strawberry Electric Serv Dist",
+      "state": "UT",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "84",
+      "name": "A & N Electric Coop",
+      "state": "VA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "733",
+      "name": "Appalachian Power Co",
+      "state": "VA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "1062",
+      "name": "BARC Electric Coop Inc",
+      "state": "VA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "2248",
+      "name": "Bristol Virginia Utilities",
+      "state": "VA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3291",
+      "name": "Central Virginia Electric Coop",
+      "state": "VA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8198",
+      "name": "City of Harrisonburg - (VA)",
+      "state": "VA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11560",
+      "name": "City of Manassas - (VA)",
+      "state": "VA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11770",
+      "name": "City of Martinsville - (VA)",
+      "state": "VA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16558",
+      "name": "City of Salem - (VA)",
+      "state": "VA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4117",
+      "name": "Community Electric Coop",
+      "state": "VA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "4471",
+      "name": "Craig-Botetourt Electric Coop",
+      "state": "VA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10171",
+      "name": "Kentucky Utilities Co",
+      "state": "VA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "12260",
+      "name": "Mecklenburg Electric Cooperative",
+      "state": "VA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13762",
+      "name": "Northern Neck Elec Coop, Inc",
+      "state": "VA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13640",
+      "name": "Northern Virginia Elec Coop",
+      "state": "VA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15293",
+      "name": "Powell Valley Electric Coop",
+      "state": "VA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15410",
+      "name": "Prince George Electric Coop",
+      "state": "VA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "40228",
+      "name": "Rappahannock Electric Coop",
+      "state": "VA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17066",
+      "name": "Shenandoah Valley Elec Coop",
+      "state": "VA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "21244",
+      "name": "Southside Electric Coop, Inc",
+      "state": "VA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1456",
+      "name": "Town of Bedford - (VA)",
+      "state": "VA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19876",
+      "name": "Virginia Electric & Power Co",
+      "state": "VA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "19882",
+      "name": "Virginia Tech Electric Service",
+      "state": "VA",
+      "entityType": "State"
+    },
+    {
+      "id": "1299",
+      "name": "Barton Village, Inc",
+      "state": "VT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "2548",
+      "name": "City of Burlington Electric - (VT)",
+      "state": "VT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7601",
+      "name": "Green Mountain Power Corp",
+      "state": "VT",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "8104",
+      "name": "Town of Hardwick",
+      "state": "VT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "27316",
+      "name": "Town of Stowe- (VT)",
+      "state": "VT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19791",
+      "name": "Vermont Electric Cooperative, Inc",
+      "state": "VT",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5915",
+      "name": "Village of Enosburg Falls - (VT)",
+      "state": "VT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9144",
+      "name": "Village of Hyde Park - (VT)",
+      "state": "VT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9610",
+      "name": "Village of Jacksonville - (VT)",
+      "state": "VT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "9806",
+      "name": "Village of Johnson - (VT)",
+      "state": "VT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11359",
+      "name": "Village of Lyndonville - (VT)",
+      "state": "VT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12989",
+      "name": "Village of Morrisville - (VT)",
+      "state": "VT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13789",
+      "name": "Village of Northfield - (VT)",
+      "state": "VT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "14261",
+      "name": "Village of Orleans - (VT)",
+      "state": "VT",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20169",
+      "name": "Avista Corp",
+      "state": "WA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "1625",
+      "name": "Benton Rural Electric Assn",
+      "state": "WA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1723",
+      "name": "Big Bend Electric Coop, Inc",
+      "state": "WA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3295",
+      "name": "City of Centralia - (WA)",
+      "state": "WA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3420",
+      "name": "City of Cheney - (WA)",
+      "state": "WA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "15979",
+      "name": "City of Richland - (WA)",
+      "state": "WA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16868",
+      "name": "City of Seattle - (WA)",
+      "state": "WA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "18429",
+      "name": "City of Tacoma - (WA)",
+      "state": "WA",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4041",
+      "name": "Columbia Rural Elec Assn, Inc",
+      "state": "WA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8699",
+      "name": "Inland Power & Light Company",
+      "state": "WA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13387",
+      "name": "Nespelem Valley Elec Coop, Inc",
+      "state": "WA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13758",
+      "name": "Northern Lights, Inc",
+      "state": "WA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14074",
+      "name": "Okanogan County Elec Coop, Inc",
+      "state": "WA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14170",
+      "name": "Orcas Power & Light Coop",
+      "state": "WA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14354",
+      "name": "PacifiCorp",
+      "state": "WA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "14668",
+      "name": "Peninsula Light Company",
+      "state": "WA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1579",
+      "name": "PUD No 1 of Benton County",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "3413",
+      "name": "PUD No 1 of Chelan County - (WA)",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "3644",
+      "name": "PUD No 1 of Clallam County",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "3660",
+      "name": "PUD No 1 of Clark County - (WA)",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "4442",
+      "name": "PUD No 1 of Cowlitz County",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "6716",
+      "name": "PUD No 1 of Franklin County",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "7548",
+      "name": "PUD No 1 of Grays Harbor County",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "59013",
+      "name": "PUD No 1 of Jefferson County",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "10326",
+      "name": "PUD No 1 of Kittitas County",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "10393",
+      "name": "PUD No 1 of Klickitat County",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "10944",
+      "name": "PUD No 1 of Lewis County - (WA)",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "14055",
+      "name": "PUD No 1 of Okanogan County",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "14653",
+      "name": "PUD No 1 of Pend Oreille County",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "17279",
+      "name": "PUD No 1 of Skamania Co",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "17470",
+      "name": "PUD No 1 of Snohomish County - (WA)",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "14624",
+      "name": "PUD No 2 of Grant County - (WA)",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "14324",
+      "name": "PUD No 2 of Pacific County",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "15419",
+      "name": "PUD No 3 of Mason County",
+      "state": "WA",
+      "entityType": "Political Subdivision"
+    },
+    {
+      "id": "15500",
+      "name": "Puget Sound Energy Inc",
+      "state": "WA",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "56621",
+      "name": "Yakama Power",
+      "state": "WA",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "108",
+      "name": "Adams-Columbia Electric Coop",
+      "state": "WI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1251",
+      "name": "Barron Electric Coop",
+      "state": "WI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3208",
+      "name": "Cedarburg Light & Water Comm",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "3293",
+      "name": "Central Wisconsin Elec Coop",
+      "state": "WI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "10056",
+      "name": "City of Kaukauna (WI)",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11740",
+      "name": "City of Marshfield - (WI)",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "12298",
+      "name": "City of Menasha - (WI)",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13448",
+      "name": "City of New Holstein - (WI)",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13481",
+      "name": "City of New Richmond",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "15159",
+      "name": "City of Plymouth - (WI)",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "15978",
+      "name": "City of Richland Center - (WI)",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16082",
+      "name": "City of River Falls",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "18181",
+      "name": "City of Stoughton - (WI)",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "18249",
+      "name": "City of Sturgeon Bay - (WI)",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "5417",
+      "name": "Dunn County Electric Coop",
+      "state": "WI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "5632",
+      "name": "Eau Claire Electric Coop",
+      "state": "WI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "6424",
+      "name": "Florence Utility Comm",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "8212",
+      "name": "Hartford Electric",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "11479",
+      "name": "Madison Gas & Electric Co",
+      "state": "WI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "11571",
+      "name": "Manitowoc Public Utilities",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13780",
+      "name": "Northern States Power Co",
+      "state": "WI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "13936",
+      "name": "Oakdale Electric Coop",
+      "state": "WI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "13963",
+      "name": "Oconomowoc Utilities",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13964",
+      "name": "Oconto Electric Cooperative",
+      "state": "WI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15034",
+      "name": "Pierce-Pepin Coop Services",
+      "state": "WI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15344",
+      "name": "Polk-Burnett Electric Coop",
+      "state": "WI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15356",
+      "name": "Price Electric Coop Inc",
+      "state": "WI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "15938",
+      "name": "Rice Lake Utilities",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "16060",
+      "name": "Riverland Energy Cooperative",
+      "state": "WI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16196",
+      "name": "Rock Energy Cooperative",
+      "state": "WI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "16740",
+      "name": "Scenic Rivers Energy Coop",
+      "state": "WI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "17011",
+      "name": "Shawano Municipal Utilities",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17324",
+      "name": "Slinger Utilities",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "17868",
+      "name": "St Croix Electric Coop",
+      "state": "WI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "18312",
+      "name": "Sun Prairie Utilities",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "18336",
+      "name": "Superior Water and Light Co",
+      "state": "WI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "18383",
+      "name": "Taylor Electric Coop - (WI)",
+      "state": "WI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19324",
+      "name": "Two Rivers Water & Light",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "19813",
+      "name": "Vernon Electric Coop",
+      "state": "WI",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "1181",
+      "name": "Village of Bangor - (WI)",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13036",
+      "name": "Village of Mt. Horeb - (WI)",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "13145",
+      "name": "Village of Muscoda - (WI)",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20211",
+      "name": "Village of Waunakee - (WI)",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20213",
+      "name": "Waupun Utilities",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "20847",
+      "name": "Wisconsin Electric Power Co",
+      "state": "WI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "20856",
+      "name": "Wisconsin Power & Light Co",
+      "state": "WI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "20860",
+      "name": "Wisconsin Public Service Corp",
+      "state": "WI",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "20862",
+      "name": "Wisconsin Rapids W W & L Comm",
+      "state": "WI",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "733",
+      "name": "Appalachian Power Co",
+      "state": "WV",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "13471",
+      "name": "City of New Martinsville - (WV)",
+      "state": "WV",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "4471",
+      "name": "Craig-Botetourt Electric Coop",
+      "state": "WV",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8192",
+      "name": "Harrison Rural Elec Assn, Inc",
+      "state": "WV",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12796",
+      "name": "Monongahela Power Co",
+      "state": "WV",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "15263",
+      "name": "The Potomac Edison Company",
+      "state": "WV",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "20521",
+      "name": "Wheeling Power Co",
+      "state": "WV",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "1675",
+      "name": "Big Horn Rural Electric Co",
+      "state": "WY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "19545",
+      "name": "Black Hills Power, Inc.",
+      "state": "WY",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "2998",
+      "name": "Carbon Power & Light, Inc",
+      "state": "WY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "3461",
+      "name": "Cheyenne Light Fuel & Power",
+      "state": "WY",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "3881",
+      "name": "City of Cody",
+      "state": "WY",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "7222",
+      "name": "City of Gillette - (WY)",
+      "state": "WY",
+      "entityType": "Municipal"
+    },
+    {
+      "id": "6169",
+      "name": "Fall River Rural Elec Coop Inc",
+      "state": "WY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "8566",
+      "name": "High Plains Power Inc",
+      "state": "WY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "12199",
+      "name": "Montana-Dakota Utilities Co",
+      "state": "WY",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "13685",
+      "name": "Niobrara Electric Assn, Inc",
+      "state": "WY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "14354",
+      "name": "PacifiCorp",
+      "state": "WY",
+      "entityType": "Investor Owned"
+    },
+    {
+      "id": "19156",
+      "name": "Powder River Energy Corp",
+      "state": "WY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "21079",
+      "name": "Wyrulec Company",
+      "state": "WY",
+      "entityType": "Cooperative"
+    },
+    {
+      "id": "21081",
+      "name": "Yampa Valley Electric Assn Inc",
+      "state": "WY",
+      "entityType": "Cooperative"
+    }
+  ]
+}

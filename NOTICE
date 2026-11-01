@@ -1,0 +1,28 @@
+Electricity Reliability Explorer
+Copyright 2026 Denise M. Case
+
+Software license: Apache License, Version 2.0 (see LICENSE).
+
+Data sources and attribution:
+
+- U.S. Energy Information Administration (EIA), Form EIA-861,
+  annual electric utility reliability reporting.
+  https://www.eia.gov/electricity/data/eia861/
+
+- Catalyst Cooperative, Public Utility Data Liberation Project (PUDL),
+  which processes and republishes EIA data.
+  https://catalyst.coop/pudl/
+  PUDL data and documentation license: Creative Commons Attribution 4.0
+  International (CC BY 4.0).
+  https://creativecommons.org/licenses/by/4.0/
+
+The explorer uses derived/selected data, rather than asserting that
+its presentation is an unmodified copy of an EIA or PUDL publication.
+For reproducibility, record the exact PUDL source release, access date,
+and transformation steps in the project data documentation.
+
+The software's Apache-2.0 license does not replace the CC BY 4.0
+attribution obligations that apply to redistributed PUDL data.
+
+This project is independent and is not affiliated with or endorsed by
+EIA, Catalyst Cooperative, or any utility.

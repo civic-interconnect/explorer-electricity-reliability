@@ -1,0 +1,37 @@
+{
+  "name": "explorer-electricity-reliability",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Browser-based explorer for annual U.S. electric utility reliability data (SAIDI, SAIFI, CAIDI).",
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "Denise M. Case",
+  "homepage": "https://civic-interconnect.github.io/explorer-electricity-reliability/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/civic-interconnect/explorer-electricity-reliability.git"
+  },
+  "bugs": {
+    "url": "https://github.com/civic-interconnect/explorer-electricity-reliability/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "lint": "eslint src test eslint.config.js",
+    "lint:fix": "eslint src test eslint.config.js --fix",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@types/node": "^26.6.6",
+    "ajv": "^8.20.0",
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0",
+    "typescript": "^7.0.2"
+  },
+  "overrides": {
+    "minimatch": "11.0.1"
+  }
+}

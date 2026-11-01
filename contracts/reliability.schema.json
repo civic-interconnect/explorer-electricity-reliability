@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://civic-interconnect.github.io/explorer-electricity-reliability/contracts/reliability.schema.json",
+  "title": "Reliability dataset file",
+  "description": "One file per jurisdiction and reporting year, published by a data repository.",
+  "type": "object",
+  "required": ["schemaVersion", "jurisdiction", "reportingYear", "source", "units", "records"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "$ref": "#/$defs/semver" },
+    "jurisdiction": {
+      "description": "Lowercase ISO 3166-1 alpha-2 country code, optionally followed by a hyphen and an ISO 3166-2 subdivision code.",
+      "type": "string",
+      "pattern": "^[a-z]{2}(-[a-z0-9]{1,3})?$"
+    },
+    "reportingYear": { "type": "integer", "minimum": 1900 },
+    "source": {
+      "type": "object",
+      "required": ["name", "release", "license", "retrievedAt"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "release": { "type": "string", "minLength": 1 },
+        "doi": { "type": "string" },
+        "license": { "type": "string", "minLength": 1 },
+        "retrievedAt": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+      }
+    },
+    "units": {
+      "type": "object",
+      "required": ["saidi", "saifi", "caidi"],
+      "additionalProperties": false,
+      "properties": {
+        "saidi": { "const": "minutes" },
+        "saifi": { "const": "interruptions" },
+        "caidi": { "const": "minutes" }
+      }
+    },
+    "records": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/record" }
+    }
+  },
+  "$defs": {
+    "semver": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "index": {
+      "type": ["number", "null"],
+      "minimum": 0
+    },
+    "indices": {
+      "type": "object",
+      "required": ["saidi", "saifi", "caidi"],
+      "additionalProperties": false,
+      "properties": {
+        "saidi": { "$ref": "#/$defs/index" },
+        "saifi": { "$ref": "#/$defs/index" },
+        "caidi": { "$ref": "#/$defs/index" }
+      }
+    },
+    "record": {
+      "type": "object",
+      "required": ["utility", "method", "metrics"],
+      "additionalProperties": false,
+      "properties": {
+        "utility": {
+          "description": "A qualified identifier: the scheme says which numbering system the value belongs to.",
+          "type": "object",
+          "required": ["scheme", "value", "name"],
+          "additionalProperties": false,
+          "properties": {
+            "scheme": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+            "value": { "type": "string", "minLength": 1 },
+            "name": { "type": "string", "minLength": 1 }
+          }
+        },
+        "subdivision": {
+          "description": "ISO 3166-2 subdivision code (the part after the hyphen), as reported for the utility.",
+          "type": "string",
+          "pattern": "^[a-z0-9]{1,3}$"
+        },
+        "ownership": {
+          "description": "Stable lowercase identifier for the ownership type, such as cooperative, investor-owned or municipal.",
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*$"
+        },
+        "customers": { "type": ["integer", "null"], "minimum": 0 },
+        "method": {
+          "description": "How the utility reported calculating the indices.",
+          "enum": ["ieee-1366", "other", "unknown"]
+        },
+        "metrics": {
+          "description": "Indices by variant. A variant that the utility did not report is omitted.",
+          "type": "object",
+          "minProperties": 1,
+          "propertyNames": {
+            "enum": [
+              "including-major-event-days",
+              "excluding-major-event-days",
+              "including-major-event-days-excluding-loss-of-supply"
+            ]
+          },
+          "additionalProperties": { "$ref": "#/$defs/indices" }
+        }
+      }
+    }
+  }
+}

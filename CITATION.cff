@@ -1,0 +1,44 @@
+# ============================================================
+# CITATION.cff (How to cite this project)
+# ============================================================
+# REQ.UNIVERSAL: Professional open projects SHOULD include this file.
+# May reference upstream dependencies, but must not refer to downstream.
+# USAGE: See https://citation-file-format.github.io/ for details.
+# check with:
+# uvx cffconvert --validate
+
+cff-version: "1.2.0"
+type: software
+message: "If you use this work, please cite it using the metadata in this file."
+
+title: explorer-electricity-reliability
+version: 0.1.0
+date-released: 2026-11-01
+
+authors:
+  - family-names: Case
+    given-names: Denise M.
+    orcid: "https://orcid.org/0000-0001-6165-7389"
+    affiliation: "Northwest Missouri State University, School of Computer Science and Information Systems, Maryville, MO, USA"
+
+repository-code: "https://github.com/civic-interconnect/explorer-electricity-reliability"
+url: "https://github.com/civic-interconnect/explorer-electricity-reliability"
+
+license: Apache-2.0
+
+abstract: >
+  An open explorer for annual U.S. electric utility reliability
+  data, including SAIDI, SAIFI, and CAIDI, with methods, definitions,
+  and reporting limitations explained. The data originate with U.S.
+  Energy Information Administration Form EIA-861 and are processed
+  and published by Catalyst Cooperative's PUDL project.
+
+keywords:
+  - electricity
+  - utility reliability
+  - EIA-861
+  - PUDL
+  - SAIDI
+  - SAIFI
+  - CAIDI
+  - open data

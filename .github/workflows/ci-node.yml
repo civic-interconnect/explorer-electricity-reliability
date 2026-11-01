@@ -1,0 +1,63 @@
+# ============================================================
+# .github/workflows/ci-node.yml (ALL-NODE-JS-REPOS)
+# ============================================================
+# Updated: 2026-11-01
+
+# Name that appears in the GitHub Actions UI
+name: CI (Node.js)
+
+on:
+  push:
+    branches: [main] # WHY: Validate on every push to GitHub branch `main`.
+  pull_request:
+    branches: [main] # WHY: Validate pull requests before merge.
+  workflow_dispatch: # WHY: Allow manual trigger from Actions tab.
+
+permissions:
+  contents: read # WHY: Least privilege; checks only read repository contents.
+
+concurrency:
+  group: ci-node-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+  # WHY: Cancel a running check when new code is pushed to the same branch.
+
+jobs:
+  check:
+    name: Node checks
+    runs-on: ubuntu-latest # WHY: Linux matches most production deployments.
+    timeout-minutes: 30 # WHY: Fail fast if a step hangs unexpectedly.
+
+    steps:
+      # ============================================================
+      # A) ASSEMBLE: Checkout code and set up environment
+      # ============================================================
+
+      - name: A1) Checkout repository code
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+        # WHY: Required so all subsequent steps can access repo files.
+
+      - name: A2) Show Node version
+        run: node --version
+        # WHY: Ensure the correct Node.js version is being used in CI.
+
+      - name: A3) Install dev tools
+        run: npm ci
+        # WHY: Install all dependencies as specified in package-lock.json.
+
+      # ============================================================
+      # B) BASELINE CHECKS: Tools not covered by hooks
+      # ============================================================
+
+      - name: B1) Lint
+        run: npm run lint
+        # WHY: Run the linter to catch code style and formatting issues early.
+
+      - name: B2) Type check
+        run: npm run typecheck
+        # WHY: Ensure TypeScript types are correct and catch type errors early.
+
+      - name: B3) Test
+        run: npm test
+        # WHY: Run the test suite to validate code correctness.
